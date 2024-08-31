@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<exclude name="ExcludedGroup" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestExecution.Testing">
+			</class>
+		</classes>
+	</test>
+	<test name="Test2">
+		<groups>
+			<run>
+				<exclude name="AGroup"></exclude>
+				<exclude name="BGroup"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestExecution.Testing">
+
+			</class>
+		</classes>
+	</test>
+</suite>

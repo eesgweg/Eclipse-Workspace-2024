@@ -1,0 +1,22 @@
+{
+    "data": {
+        "character": {
+            "name": "Badguhmm",
+            "gender": "NA",
+            "status": "dead",
+            "id": 7650
+        },
+        "location": {
+            "id": 11803,
+            "name": "Alaska",
+            "type": "North",
+            "dimension": "10"
+        },
+        "episode": {
+            "id": 9200,
+            "name": "Suites",
+            "air_date": "2018-05-01",
+            "episode": "1"
+        }
+    }
+}

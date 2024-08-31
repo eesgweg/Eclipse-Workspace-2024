@@ -1,0 +1,292 @@
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "rainamani.444@gmail.com",
+    "userPassword": "Mani@1997"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:15:39 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "rainam.444@gmail.com",
+    "userPassword": "Mani@1997"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:15:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "rainamani.444@gmail.com",
+    "userPassword": "Man1997"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:15:44 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "",
+    "userPassword": "Man1997"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:15:46 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "rainamani.444@gmail.com",
+    "userPassword": ""
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:15:48 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "rainamani.444@gmail.com",
+    "userPassword": "Mani@1997"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:15:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	GET
+Request URI:	https://template.postman-echo.com/api/v1/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Date: Wed, 28 Aug 2024 08:16:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    "apiKey": "uXiLqs6B.ZPFNTTM95IXalj37ZADZU"
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/api/v1/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "owner": "James Bond - FromAccount",
+    "currency": "COSMIC_COINS",
+    "balance": 100
+}
+HTTP/1.1 403 
+Date: Wed, 28 Aug 2024 08:16:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    "name": "invalidAuth",
+    "message": "Please provide a valid API key in the header of the request."
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "ZDog",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "London Street",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "ZTamil"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:16:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}
+Request method:	POST
+Request URI:	https://template.postman-echo.com/maps/api/place/add/json?key=qaclick123&key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=[qaclick123, qaclick123]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "BADBOY",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Australia",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French"
+}
+HTTP/1.1 404 
+Date: Wed, 28 Aug 2024 08:16:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx/1.25.3
+uWebSockets: 20
+
+{
+    
+}

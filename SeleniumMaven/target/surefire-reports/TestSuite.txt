@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 40, Failures: 1, Errors: 0, Skipped: 39, Time elapsed: 47.452 s <<< FAILURE! - in TestSuite
+TestExecution.Runner.BrowserAssignment  Time elapsed: 5.012 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANIBEEEE', ip: '192.168.1.116', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at TestExecution.Runner.BrowserAssignment(Runner.java:49)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: getsockopt: localhost/[0:0:0:0:0:0:0:1]:63357
+	at TestExecution.Runner.BrowserAssignment(Runner.java:49)
+Caused by: java.net.ConnectException: Connection refused: getsockopt: localhost/[0:0:0:0:0:0:0:1]:63357
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: localhost/[0:0:0:0:0:0:0:1]:63357
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+
