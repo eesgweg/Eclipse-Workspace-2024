@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-31T21:14:33 IST" name="Suite" finished-at="2024-08-31T21:14:38 IST" duration-ms="5228">
+    <groups>
+      <group name="CollectionsUtlity">
+        <method signature="Collections_Framework.CollectionsUtility()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="CollectionsUtility" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- CollectionsUtlity -->
+      <group name="Conversions">
+        <method signature="Collections_Framework.ConversionsOfCollections()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="ConversionsOfCollections" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- Conversions -->
+      <group name="Lists">
+        <method signature="Collections_Framework.List()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="List" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- Lists -->
+      <group name="Sets">
+        <method signature="Collections_Framework.Set()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Set" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- Sets -->
+      <group name="Stacks">
+        <method signature="Collections_Framework.Stacks()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Stacks" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- Stacks -->
+      <group name="ArraysUtility">
+        <method signature="Collections_Framework.ArraysUtlitity()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="ArraysUtlitity" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- ArraysUtility -->
+      <group name="QueueDequeue">
+        <method signature="Collections_Framework.Queues()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Queues" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- QueueDequeue -->
+      <group name="Map">
+        <method signature="Collections_Framework.Maps()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Maps" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- Map -->
+    </groups>
+    <test started-at="2024-08-31T21:14:33 IST" name="Test" finished-at="2024-08-31T21:14:38 IST" duration-ms="5228">
+      <class name="CollectionsFW.Collections_Framework">
+        <test-method signature="ArraysUtlitity()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="ArraysUtlitity" finished-at="2024-08-31T21:14:33 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ArraysUtlitity -->
+        <test-method signature="CollectionsUtility()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="CollectionsUtility" finished-at="2024-08-31T21:14:33 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollectionsUtility -->
+        <test-method signature="ConversionsOfCollections()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="ConversionsOfCollections" finished-at="2024-08-31T21:14:33 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConversionsOfCollections -->
+        <test-method signature="List()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="List" finished-at="2024-08-31T21:14:33 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- List -->
+        <test-method signature="Maps()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="Maps" finished-at="2024-08-31T21:14:33 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maps -->
+        <test-method signature="Queues()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="Queues" finished-at="2024-08-31T21:14:38 IST" duration-ms="5016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Queues -->
+        <test-method signature="Set()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:38 IST" name="Set" finished-at="2024-08-31T21:14:38 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Set -->
+        <test-method signature="Stacks()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:38 IST" name="Stacks" finished-at="2024-08-31T21:14:38 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stacks -->
+      </class> <!-- CollectionsFW.Collections_Framework -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
