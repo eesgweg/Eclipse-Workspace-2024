@@ -1,5 +1,6 @@
 package CollectionsFW;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
@@ -17,13 +18,17 @@ public class test {
 	public static final String CYAN = "\u001B[36m";
 
 	public static void main(String[] args) {
-		Class<?> clazz = test.class;
+		Class<?> clazz = Collections_Framework.class;
         Method[] methods = clazz.getDeclaredMethods();
-        System.out.println(methods[2].getName());
-//        for(Method x : methods) {
-//        	System.out.println(x.getName());
-//        }
-//        
+        List<Method> Methods = new ArrayList<Method>();
+        for(Method method : methods) {
+        	if (!method.getName().contains("$")) {
+        		System.out.println(method.getName());
+            }
+        }
+        
+       
+       
 	}
 	
 	public void A() {
