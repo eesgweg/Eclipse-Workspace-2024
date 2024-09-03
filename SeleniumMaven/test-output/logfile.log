@@ -1,0 +1,150 @@
+2024-09-02 21:21:52 INFO  Log4jListener:16 - Test Suite started: Test
+2024-09-02 21:21:53 INFO  Log4jListener:26 - Test started: Launch_And_Login
+2024-09-02 21:22:08 INFO  Log4jListener:31 - Test passed: Launch_And_Login
+2024-09-02 21:22:08 INFO  Log4jListener:21 - Test Suite finished: Test
+2024-09-02 21:35:57 INFO  Log4jListener:26 - Test Suite started: Test
+2024-09-02 21:35:57 INFO  Log4jListener:40 - Test started: Launch_And_Login
+2024-09-02 21:36:12 INFO  Log4jListener:46 - Test passed: Launch_And_Login
+2024-09-02 21:36:12 INFO  Log4jListener:32 - Test Suite finished: Test
+2024-09-02 21:43:52 INFO  Log4jListener:26 - Test Suite started: Test
+2024-09-02 21:43:53 INFO  Log4jListener:49 - Test started: Launch_And_Login
+2024-09-02 21:44:12 INFO  Log4jListener:55 - Test passed: Launch_And_Login
+2024-09-02 21:44:12 INFO  Log4jListener:41 - Test Suite finished: Test
+2024-09-02 21:52:21 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 21:52:21 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 21:52:41 INFO  Log4jListener:57 - Test passed: Launch_And_Login
+2024-09-02 21:52:41 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:02:18 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:02:18 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:02:28 ERROR Log4jListener:63 - Test failed: Launch_And_Login
+java.lang.NullPointerException: Cannot invoke "Utlilities.Log4jListener.WriteToHTML(String)" because "this.Log4jListener" is null
+	at Utlilities.UserActions.Click(UserActions.java:15)
+	at POMs.DemoWebshop_HomePage.ClickLoginTab(DemoWebshop_HomePage.java:41)
+	at TestExecution.DemoWebShop_OrderItem.Launch_And_Login(DemoWebShop_OrderItem.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-02 22:02:28 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:04:22 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:04:22 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:04:32 ERROR Log4jListener:63 - Test failed: Launch_And_Login
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedWriter.write(String)" because "this.writer" is null
+	at Utlilities.Log4jListener.WriteToHTML(Log4jListener.java:83)
+	at Utlilities.UserActions.Click(UserActions.java:15)
+	at POMs.DemoWebshop_HomePage.ClickLoginTab(DemoWebshop_HomePage.java:41)
+	at TestExecution.DemoWebShop_OrderItem.Launch_And_Login(DemoWebShop_OrderItem.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-02 22:04:32 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:06:21 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:06:21 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:06:30 ERROR Log4jListener:63 - Test failed: Launch_And_Login
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedWriter.write(String)" because "this.writer" is null
+	at Utlilities.Log4jListener.WriteToHTML(Log4jListener.java:83)
+	at Utlilities.UserActions.Click(UserActions.java:15)
+	at POMs.DemoWebshop_HomePage.ClickLoginTab(DemoWebshop_HomePage.java:41)
+	at TestExecution.DemoWebShop_OrderItem.Launch_And_Login(DemoWebShop_OrderItem.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-02 22:06:30 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:09:07 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:09:07 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:09:16 ERROR Log4jListener:63 - Test failed: Launch_And_Login
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedWriter.write(String)" because "this.writer" is null
+	at Utlilities.Log4jListener.WriteToHTML(Log4jListener.java:84)
+	at Utlilities.UserActions.Click(UserActions.java:15)
+	at POMs.DemoWebshop_HomePage.ClickLoginTab(DemoWebshop_HomePage.java:41)
+	at TestExecution.DemoWebShop_OrderItem.Launch_And_Login(DemoWebShop_OrderItem.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-02 22:09:16 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:18:50 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:18:50 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:19:01 ERROR Log4jListener:63 - Test failed: Launch_And_Login
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedWriter.write(String)" because "this.writer" is null
+	at Utlilities.Log4jListener.WriteToHTML(Log4jListener.java:84)
+	at Utlilities.UserActions.Click(UserActions.java:19)
+	at POMs.DemoWebshop_HomePage.ClickLoginTab(DemoWebshop_HomePage.java:44)
+	at TestExecution.DemoWebShop_OrderItem.Launch_And_Login(DemoWebShop_OrderItem.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-02 22:19:01 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:23:16 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:23:16 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:23:26 ERROR Log4jListener:63 - Test failed: Launch_And_Login
+java.lang.NullPointerException: Cannot invoke "java.io.BufferedWriter.write(String)" because "this.writer" is null
+	at Utlilities.UserActions.Click(UserActions.java:19)
+	at POMs.DemoWebshop_HomePage.ClickLoginTab(DemoWebshop_HomePage.java:44)
+	at TestExecution.DemoWebShop_OrderItem.Launch_And_Login(DemoWebShop_OrderItem.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-02 22:23:26 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-09-02 22:25:26 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-02 22:25:26 INFO  Log4jListener:51 - Test started: Launch_And_Login
+2024-09-02 22:25:41 INFO  Log4jListener:57 - Test passed: Launch_And_Login
+2024-09-02 22:25:41 INFO  Log4jListener:43 - Test Suite finished: Test

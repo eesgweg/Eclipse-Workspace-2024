@@ -75,8 +75,7 @@ public class Runner {
 			System.out.println();
 		}
 		System.out.println(amount);
-//		
-//		
+	
 //		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 //		
 //		WebElement Dropdown = driver.findElement(By.cssSelector("#dropdown-class-example"));

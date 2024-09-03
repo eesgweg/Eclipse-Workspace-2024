@@ -1,0 +1,32 @@
+{
+    "collection": {
+        "info": {
+            "_postman_id": "c217eb01-3c1b-4145-8d6c-3d61f6d782da",
+            "name": "IzLnn",
+            "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+            "updatedAt": "2024-09-01T07:39:44.000Z",
+            "createdAt": "2024-09-01T07:39:40.000Z",
+            "lastUpdatedBy": "36603046",
+            "uid": "36603046-c217eb01-3c1b-4145-8d6c-3d61f6d782da"
+        },
+        "item": [
+            {
+                "name": "",
+                "id": "99d8acf3-92e9-4b12-b6e1-b22a6bb343f5",
+                "request": {
+                    "method": null,
+                    "header": [
+                        
+                    ],
+                    "url": {
+                        "raw": ""
+                    }
+                },
+                "response": [
+                    
+                ],
+                "uid": "36603046-99d8acf3-92e9-4b12-b6e1-b22a6bb343f5"
+            }
+        ]
+    }
+}

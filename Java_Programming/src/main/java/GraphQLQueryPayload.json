@@ -1,0 +1,7 @@
+{
+	"query": "query($episodeid: Int!,$charaterid : Int!){\n  episode(episodeId: $episodeid){\n    id,\n    name,\n    episode\n  }\n  character(characterId: $charaterid){\n    id,\n    name,\n    status\n  }\n}",
+	"variables": {
+		"episodeid": 10157,
+		"charaterid": 998
+	}
+}

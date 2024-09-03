@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DDT.DPH">
+      <class name="TestExecution.DemoWebShop_OrderItem">
         <methods>
-          <include name="testStudentData"/>
+          <include name="Launch_And_Login"/>
         </methods>
-      </class> <!-- DDT.DPH -->
+      </class> <!-- TestExecution.DemoWebShop_OrderItem -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,10 @@
+{
+    "data": {
+        "createEpisode": {
+            "id": 10170
+        },
+        "associateEpisodeCharacter": {
+            "status": 1
+        }
+    }
+}

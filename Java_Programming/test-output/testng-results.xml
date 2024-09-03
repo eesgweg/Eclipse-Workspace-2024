@@ -1,69 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-31T21:14:33 IST" name="Suite" finished-at="2024-08-31T21:14:38 IST" duration-ms="5228">
+  <suite started-at="2024-09-01T22:12:50 IST" name="Suite" finished-at="2024-09-01T22:13:31 IST" duration-ms="41542">
     <groups>
-      <group name="CollectionsUtlity">
-        <method signature="Collections_Framework.CollectionsUtility()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="CollectionsUtility" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- CollectionsUtlity -->
-      <group name="Conversions">
-        <method signature="Collections_Framework.ConversionsOfCollections()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="ConversionsOfCollections" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- Conversions -->
-      <group name="Lists">
-        <method signature="Collections_Framework.List()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="List" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- Lists -->
-      <group name="Sets">
-        <method signature="Collections_Framework.Set()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Set" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- Sets -->
-      <group name="Stacks">
-        <method signature="Collections_Framework.Stacks()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Stacks" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- Stacks -->
-      <group name="ArraysUtility">
-        <method signature="Collections_Framework.ArraysUtlitity()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="ArraysUtlitity" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- ArraysUtility -->
-      <group name="QueueDequeue">
-        <method signature="Collections_Framework.Queues()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Queues" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- QueueDequeue -->
-      <group name="Map">
-        <method signature="Collections_Framework.Maps()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" name="Maps" class="CollectionsFW.Collections_Framework"/>
-      </group> <!-- Map -->
     </groups>
-    <test started-at="2024-08-31T21:14:33 IST" name="Test" finished-at="2024-08-31T21:14:38 IST" duration-ms="5228">
-      <class name="CollectionsFW.Collections_Framework">
-        <test-method signature="ArraysUtlitity()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="ArraysUtlitity" finished-at="2024-08-31T21:14:33 IST" duration-ms="26" status="PASS">
+    <test started-at="2024-09-01T22:12:50 IST" name="Test" finished-at="2024-09-01T22:13:31 IST" duration-ms="41542">
+      <class name="API.E2E">
+        <test-method signature="GetAPIToken()[pri:1, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:12:50 IST" name="GetAPIToken" finished-at="2024-09-01T22:12:55 IST" duration-ms="5386" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ArraysUtlitity -->
-        <test-method signature="CollectionsUtility()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="CollectionsUtility" finished-at="2024-08-31T21:14:33 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- GetAPIToken -->
+        <test-method signature="createFromAccount()[pri:2, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:12:55 IST" name="createFromAccount" finished-at="2024-09-01T22:12:58 IST" duration-ms="2599" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CollectionsUtility -->
-        <test-method signature="ConversionsOfCollections()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="ConversionsOfCollections" finished-at="2024-08-31T21:14:33 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- createFromAccount -->
+        <test-method signature="createToAccount()[pri:3, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:12:58 IST" name="createToAccount" finished-at="2024-09-01T22:13:00 IST" duration-ms="2327" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ConversionsOfCollections -->
-        <test-method signature="List()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="List" finished-at="2024-08-31T21:14:33 IST" duration-ms="19" status="PASS">
+        </test-method> <!-- createToAccount -->
+        <test-method signature="GetAllAccounts()[pri:4, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:00 IST" name="GetAllAccounts" finished-at="2024-09-01T22:13:02 IST" duration-ms="2024" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- List -->
-        <test-method signature="Maps()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="Maps" finished-at="2024-08-31T21:14:33 IST" duration-ms="29" status="PASS">
+        </test-method> <!-- GetAllAccounts -->
+        <test-method signature="CreateTransaction()[pri:5, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:02 IST" name="CreateTransaction" finished-at="2024-09-01T22:13:05 IST" duration-ms="2927" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Maps -->
-        <test-method signature="Queues()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:33 IST" name="Queues" finished-at="2024-08-31T21:14:38 IST" duration-ms="5016" status="PASS">
+        </test-method> <!-- CreateTransaction -->
+        <test-method signature="GetAllTransactions()[pri:6, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:05 IST" name="GetAllTransactions" finished-at="2024-09-01T22:13:08 IST" duration-ms="3379" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Queues -->
-        <test-method signature="Set()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:38 IST" name="Set" finished-at="2024-08-31T21:14:38 IST" duration-ms="20" status="PASS">
+        </test-method> <!-- GetAllTransactions -->
+        <test-method signature="GetTransaction()[pri:7, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:08 IST" name="GetTransaction" finished-at="2024-09-01T22:13:11 IST" duration-ms="2645" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Set -->
-        <test-method signature="Stacks()[pri:0, instance:CollectionsFW.Collections_Framework@6ef888f6]" started-at="2024-08-31T21:14:38 IST" name="Stacks" finished-at="2024-08-31T21:14:38 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- GetTransaction -->
+        <test-method signature="GetFromToAccountCurrentBalance()[pri:8, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:11 IST" name="GetFromToAccountCurrentBalance" finished-at="2024-09-01T22:13:20 IST" duration-ms="9408" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Stacks -->
-      </class> <!-- CollectionsFW.Collections_Framework -->
+        </test-method> <!-- GetFromToAccountCurrentBalance -->
+        <test-method signature="InsufficientFundsTransaction()[pri:9, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:20 IST" name="InsufficientFundsTransaction" finished-at="2024-09-01T22:13:24 IST" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsufficientFundsTransaction -->
+        <test-method signature="DeleteFromToAccounts()[pri:10, instance:API.E2E@64cd705f]" started-at="2024-09-01T22:13:24 IST" name="DeleteFromToAccounts" finished-at="2024-09-01T22:13:31 IST" duration-ms="6763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteFromToAccounts -->
+      </class> <!-- API.E2E -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

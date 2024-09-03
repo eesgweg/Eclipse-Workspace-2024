@@ -1,0 +1,14 @@
+{
+    "data": {
+        "episode": {
+            "id": 10170,
+            "name": "Silver Pilot",
+            "episode": "125"
+        },
+        "character": {
+            "id": 888,
+            "name": "Shaktiman",
+            "status": "Active"
+        }
+    }
+}

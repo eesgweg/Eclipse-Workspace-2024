@@ -1,0 +1,7 @@
+{
+	"query": "mutation($episodeid: Int!,$charaterid : Int!){\n  createEpisode(episode: {name: \"Silver Pilot\", air_date: \"2024-12-12\", episode: \"125\"}){\n    id\n  }\n  associateEpisodeCharacter(episodeId: $episodeid, characterId: $charaterid){\n    status\n  }\n}",
+	"variables": {
+		"episodeid": 10157,
+		"charaterid": 998
+	}
+}
