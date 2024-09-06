@@ -38,8 +38,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -49,13 +49,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-08-11 07:37:04 PM</div>
+    <div>2024-09-06 09:06:48 AM</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
-            <a href="#[1:3]"><span>[1:3]</span> <span>Test Positive Scenario</span></a>
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>Create a Place</span></a>
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
           <span class="feature-path">Tests/FirstAPITest.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">Test my First API Test script in Karate Framework</span>
+          <span class="feature-name">API Testing using Karate</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
@@ -76,12 +76,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1:3]</span>
-                <span class="scenario-name">Test Positive Scenario</span>
+                <span class="scenario-name">Create a Place</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>156</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1633</span>
             </div>
           </div>
           
@@ -95,10 +95,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">4</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &quot;https://reqres.in/api/users?page=2&quot;</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://rahulshettyacademy.com/maps/api/place/add/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">156</div>
+    <div class="time-cell passed">59</div>
   </div>
 
    
@@ -120,13 +120,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.5">
-      <div class="step-ref failed">5</div>
+      <div class="step-ref passed">5</div>
       
-      <div class="step-cell failed">
-        <span>When</span>&nbsp;<span>mehod GET</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -135,11 +135,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">19:37:04.395 classpath:Tests/FirstAPITest.feature:5
-When mehod GET
-no step-definition method match found for: mehod GET
-classpath:Tests/FirstAPITest.feature:5
-</div>   
+     
 
   
 
@@ -152,13 +148,13 @@ classpath:Tests/FirstAPITest.feature:5
 
   <div class="step-row">
     <div class="step-container" id="0.6">
-      <div class="step-ref skipped">6</div>
+      <div class="step-ref passed">6</div>
       
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = &#39;qaclick123&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -168,6 +164,143 @@ classpath:Tests/FirstAPITest.feature:5
   
 
      
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request read(&#39;payloadGoogleAPI.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">114</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1397</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">09:06:47.219 request:
+1 &gt; POST https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 241
+1 &gt; Host: rahulshettyacademy.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.3)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;location&quot;:{&quot;latit&quot;:-38.383494,&quot;longt&quot;:33.427362},&quot;accuracy&quot;:50,&quot;name&quot;:&quot;fnfndfnf&quot;,&quot;phone_number&quot;:&quot;(+91) 983 893 3937&quot;,&quot;address&quot;:&quot;111, Left layout, cohen 90&quot;,&quot;types&quot;:[&quot;shoe park&quot;,&quot;shop&quot;],&quot;website&quot;:&quot;http:\/\/google.com&quot;,&quot;language&quot;:&quot;Tamil-IN&quot;}
+
+09:06:48.233 response time in milliseconds: 1008
+1 &lt; 200
+1 &lt; Date: Fri, 06 Sep 2024 03:36:47 GMT
+1 &lt; Server: Apache/2.4.52 (Ubuntu)
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: POST
+1 &lt; Access-Control-Max-Age: 3600
+1 &lt; Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+1 &lt; Content-Length: 0
+1 &lt; Keep-Alive: timeout=5, max=100
+1 &lt; Connection: Keep-Alive
+1 &lt; Content-Type: application/json; charset=UTF-8
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">54</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">09:06:48.290 [print]  
+</div>   
 
   
 
