@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 02 22:25:26 IST 2024</td>
+<td>Started on:</td><td>Sat Sep 07 22:14:55 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>14 seconds (14586 ms)</td>
+<tr><td>Total time:</td><td>32 seconds (32537 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,44 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestExecution.DemoWebShop_OrderItem.Launch_And_Login()'><b>Launch_And_Login</b><br>Test class: TestExecution.DemoWebShop_OrderItem<br>Test method: Log In to Demo Workshop Portal<br/>
-<a href="#Output-1872959135" onClick='toggleBox("Output-1872959135", this, "Show output", "Hide output");'>Show output</a>
+<td title='TestExecution.DemoWebShop_OrderItem.AddToCart()'><b>AddToCart</b><br>Test class: TestExecution.DemoWebShop_OrderItem<br>Test method: Adding Items to the Shopping Cart<br/>
+<a href="#Output-271548308" onClick='toggleBox("Output-271548308", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1872959135" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1872959135">
+<a href="#Output-271548308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-271548308">
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@href='/books']] is clicked</p><br/>
+Books tab clicked.<br/>
+Price of Book 1: 10.00<br/>
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div//div[2]//div[3]//div[2]//input] is clicked</p><br/>
+Added Book 1 to the cart.<br/>
+Notification Bar: The product has been added to your shopping cart<br/>
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@href='/books']] is clicked</p><br/>
+Books tab clicked.<br/>
+Price of Book 2: 24.00<br/>
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p><br/>
+Added Book 2 to the cart.<br/>
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p><br/>
+Navigated to the Shopping Cart.<br/>
+Books added to the cart and navigated to the Shopping Cart.<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>TestExecution.DemoWebShop_OrderItem@24aed80c</td></tr>
+<tr>
+<td title='TestExecution.DemoWebShop_OrderItem.Launch_And_Login()'><b>Launch_And_Login</b><br>Test class: TestExecution.DemoWebShop_OrderItem<br>Test method: Log In to Demo Workshop Portal<br/>
+<a href="#Output-1850888911" onClick='toggleBox("Output-1850888911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1850888911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1850888911">
 Initialized FireFox browser......!<br/>
-<p>[[FirefoxDriver: firefox on WINDOWS (9a31cb72-9f43-4b58-bf85-bb98d7c962f3)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p><br/>
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p><br/>
 Selected Login Tab.....!<br/>
-<p>[[FirefoxDriver: firefox on WINDOWS (9a31cb72-9f43-4b58-bf85-bb98d7c962f3)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p><br/>
+<p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p><br/>
 Selected Login Tab.....!<br/>
-<p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (9a31cb72-9f43-4b58-bf85-bb98d7c962f3)] -> id: Email] TextBox</p><br/>
+<p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> id: Email] TextBox</p><br/>
 UserID Enetered<br/>
-<p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (9a31cb72-9f43-4b58-bf85-bb98d7c962f3)] -> id: Password] TextBox</p><br/>
+<p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> id: Password] TextBox</p><br/>
 Password Enetered<br/>
 <p>Proxy element for: DefaultElementLocator 'By.xpath: //*[@value ='Log in']' is clicked</p><br/>
 Login Button is clicked<br/>
@@ -95,8 +120,8 @@ Logged In to DemoWebshop<br/>
 </div>
 </td>
 <td></td>
-<td>14</td>
-<td>TestExecution.DemoWebShop_OrderItem@1c1bbc4e</td></tr>
+<td>16</td>
+<td>TestExecution.DemoWebShop_OrderItem@24aed80c</td></tr>
 </table><p>
 </body>
 </html>

@@ -5,6 +5,7 @@
     <classes>
       <class name="TestExecution.DemoWebShop_OrderItem">
         <methods>
+          <include name="AddToCart"/>
           <include name="Launch_And_Login"/>
         </methods>
       </class> <!-- TestExecution.DemoWebShop_OrderItem -->
