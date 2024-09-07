@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -22,6 +23,7 @@ import org.openqa.selenium.devtools.v85.css.CSS.TakeCoverageDeltaResponse;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -132,25 +134,32 @@ public class Runner {
 //		assertEquals(false, driver.findElement(By.id("checkBoxOption2")).isSelected());
 //		assertEquals(true, driver.findElement(By.id("checkBoxOption3")).isSelected());
 
-//		List<WebElement> inputtags =driver.findElements(By.tagName("input"));
-//		System.out.println("-------------------------------");
-//		System.err.println(inputtags.size());
-//		System.out.println("-------------------------------");
-//		int count =0;
-//		for(WebElement x:inputtags) {
-//			js.executeScript("arguments[0].scrollIntoView(true);",x);
-//			if(x.getAttribute("type").equalsIgnoreCase("text")) {
-//				x.sendKeys("MANI BHARATHI");
-//				
-//			}else{
-//				x.click();
-//			}
-//			Thread.sleep(1000);
-//			count++;
-//			if(count == 5) {
-//				break;
-//			}
-//		}
+		List<WebElement> inputTags = driver.findElements(By.tagName("input"));
+
+        // Print the number of input elements found
+        System.out.println("-------------------------------");
+        System.out.println("Total input tags: " + inputTags.size());
+        System.out.println("-------------------------------");
+
+        // Create a WebDriverWait instance
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        // Process the first 5 input tags only
+        inputTags.stream().limit(5).forEach(inputTag -> {
+            // Scroll the element into view
+            js.executeScript("arguments[0].scrollIntoView(true);", inputTag);
+
+            // Wait until the input is clickable (for buttons) or visible (for text fields)
+            wait.until(ExpectedConditions.visibilityOf(inputTag));
+
+            // Perform action based on the input type
+            String inputType = inputTag.getAttribute("type");
+            if ("text".equalsIgnoreCase(inputType)) {
+                inputTag.sendKeys("MANI BHARATHI");
+            } else {
+                inputTag.click();
+            }
+        });
 
 //		driver.findElement(By.linkText("Home")).click();
 
