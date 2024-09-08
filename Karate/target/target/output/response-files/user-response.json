@@ -1,0 +1,659 @@
+[
+	{
+		"customerId": 1,
+		"name": "John Doe",
+		"email": "john.doe@example.com",
+		"phone": "555-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "10001"
+		},
+		"accounts": [
+			{
+				"accountId": 101,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 1002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 102,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		],
+		"id": "dae6"
+	},
+	{
+		"customerId": 2,
+		"name": "Jane Smith",
+		"email": "jane.smith@example.com",
+		"phone": "555-5678",
+		"address": {
+			"street": "456 Oak St",
+			"city": "San Francisco",
+			"state": "CA",
+			"zip": "94107"
+		},
+		"accounts": [
+			{
+				"accountId": 103,
+				"type": "savings",
+				"balance": 7800,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1004,
+						"date": "2024-08-20",
+						"type": "deposit",
+						"amount": 1500,
+						"description": "Freelance work"
+					}
+				]
+			}
+		],
+		"loans": [
+		],
+		"creditCards": [
+			{
+				"cardId": 302,
+				"type": "mastercard",
+				"limit": 10000,
+				"balance": 3000,
+				"transactions": [
+					{
+						"transactionId": 4002,
+						"date": "2024-08-22",
+						"amount": 500,
+						"description": "Flight ticket"
+					}
+				]
+			}
+		],
+		"id": "964b"
+	},
+	{
+		"customerId": 10,
+		"name": "BBBBB",
+		"email": "AAAAA.doe@example.com",
+		"phone": "555-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "10001"
+		},
+		"accounts": [
+			{
+				"accountId": 200,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 2001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 2002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 201,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 2003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		],
+		"id": "090d"
+	},
+	{
+		"id": "dae6",
+		"customerId": 304,
+		"name": "DDDD",
+		"email": "DDDDD.doe@example.com",
+		"phone": "66666-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "30200"
+		},
+		"accounts": [
+			{
+				"accountId": 101,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 1002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 102,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "dae6",
+		"customerId": 305,
+		"name": "DDDD",
+		"email": "DDDDD.doe@example.com",
+		"phone": "66666-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "30200"
+		},
+		"accounts": [
+			{
+				"accountId": 101,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 1002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 102,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "dae6",
+		"customerId": 305,
+		"name": "DDDD",
+		"email": "DDDDD.doe@example.com",
+		"phone": "66666-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "30200"
+		},
+		"accounts": [
+			{
+				"accountId": 101,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 1002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 102,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "Cstd306",
+		"customerId": 306,
+		"name": "DDDD",
+		"email": "DDDDD.doe@example.com",
+		"phone": "66666-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "30200"
+		},
+		"accounts": [
+			{
+				"accountId": 101,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 1002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 102,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "Cstd312",
+		"customerId": 312,
+		"name": "Mana",
+		"email": "Cust312@email.com",
+		"phone": "35532-1234",
+		"address": {
+			"street": "123 Main St",
+			"city": "New York",
+			"state": "NY",
+			"zip": "31200"
+		},
+		"accounts": [
+			{
+				"accountId": 101,
+				"type": "savings",
+				"balance": 5000.75,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1001,
+						"date": "2024-08-01",
+						"type": "deposit",
+						"amount": 1000,
+						"description": "Paycheck deposit"
+					},
+					{
+						"transactionId": 1002,
+						"date": "2024-08-05",
+						"type": "withdrawal",
+						"amount": 200,
+						"description": "ATM withdrawal"
+					}
+				]
+			},
+			{
+				"accountId": 102,
+				"type": "checking",
+				"balance": 1250,
+				"currency": "USD",
+				"transactions": [
+					{
+						"transactionId": 1003,
+						"date": "2024-08-10",
+						"type": "purchase",
+						"amount": 75.5,
+						"description": "Grocery shopping"
+					}
+				]
+			}
+		],
+		"loans": [
+			{
+				"loanId": 201,
+				"type": "personal",
+				"amount": 10000,
+				"interestRate": 4.5,
+				"term": "36 months",
+				"balance": 8500,
+				"dueDate": "2024-09-10",
+				"payments": [
+					{
+						"paymentId": 3001,
+						"date": "2024-08-01",
+						"amount": 500,
+						"status": "completed"
+					}
+				]
+			}
+		],
+		"creditCards": [
+			{
+				"cardId": 301,
+				"type": "visa",
+				"limit": 5000,
+				"balance": 1200,
+				"transactions": [
+					{
+						"transactionId": 4001,
+						"date": "2024-08-15",
+						"amount": 150,
+						"description": "Online shopping"
+					}
+				]
+			}
+		]
+	}
+]
