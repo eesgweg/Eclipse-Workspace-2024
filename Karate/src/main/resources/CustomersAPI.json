@@ -1,0 +1,88 @@
+{
+		"id": "Cst10",
+        "customerId": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "555-1234",
+        "address": {
+            "street": "123 Main St",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "accounts": [
+            {
+                "accountId": 101,
+                "type": "savings",
+                "balance": 5000.75,
+                "currency": "USD",
+                "transactions": [
+                    {
+                        "transactionId": 1001,
+                        "date": "2024-08-01",
+                        "type": "deposit",
+                        "amount": 1000,
+                        "description": "Paycheck deposit"
+                    },
+                    {
+                        "transactionId": 1002,
+                        "date": "2024-08-05",
+                        "type": "withdrawal",
+                        "amount": 200,
+                        "description": "ATM withdrawal"
+                    }
+                ]
+            },
+            {
+                "accountId": 102,
+                "type": "checking",
+                "balance": 1250,
+                "currency": "USD",
+                "transactions": [
+                    {
+                        "transactionId": 1003,
+                        "date": "2024-08-10",
+                        "type": "purchase",
+                        "amount": 75.5,
+                        "description": "Grocery shopping"
+                    }
+                ]
+            }
+        ],
+        "loans": [
+            {
+                "loanId": 201,
+                "type": "personal",
+                "amount": 10000,
+                "interestRate": 4.5,
+                "term": "36 months",
+                "balance": 8500,
+                "dueDate": "2024-09-10",
+                "payments": [
+                    {
+                        "paymentId": 3001,
+                        "date": "2024-08-01",
+                        "amount": 500,
+                        "status": "completed"
+                    }
+                ]
+            }
+        ],
+        "creditCards": [
+            {
+                "cardId": 301,
+                "type": "visa",
+                "limit": 5000,
+                "balance": 1200,
+                "transactions": [
+                    {
+                        "transactionId": 4001,
+                        "date": "2024-08-15",
+                        "amount": 150,
+                        "description": "Online shopping"
+                    }
+                ]
+            }
+        ],
+        "id": "dae6"
+    }
