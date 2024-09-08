@@ -38,64 +38,64 @@ Feature: API Testing using Karate
     #And response.accounts.balance = 5000.75
     
     
-  #Scenario Outline: Create New Customers, verify and Delete the Customer
-  #Updating the Payload Request
-  #* def UpdatedPayload = karate.read("classpath:CustomersAPI.json")
-  #* def UpdatedPayload = karate.get(payload)
-  #* UpdatedPayload.id= "Cstd"+<ID>
-  #* UpdatedPayload.customerId= <ID>
-  #* UpdatedPayload.name= "<Name>"
-  #* UpdatedPayload.email = "<Email>"
-  #* UpdatedPayload.phone = "<Phone>"
-  #* UpdatedPayload.address.zip = "<Zip>"
-  #* UpdatedPayload.accounts.balance = 1000.00
-  #* print UpdatedPayload
-  #
-  # Adding New customer
-  #Given url BaseUrl
-  #And request UpdatedPayload
-  #When method post
-  #Then status 201
-  #And print response
-  #And response.id = "Cstd"+<ID>
-  #And response.customerId=<ID>
-  #And response.name= "<Name>"
-  #And response.email = "<Email>"
-  #And response.phone = "<Phone>"
-  #And response.address.zip = "<Zip>"
-  #And response.accounts.balance = 1000.00
-  #* def NewUserID = response.id
-  #* print 'NewUserID:', NewUserID
-  #
-  # Verify if new customer is added
-  #Given url BaseUrl
-  #When method get
-  #Then status 200
-  #And print response
-  #* def responseContent = response
-  #* def filePath = karate.write(responseContent, 'target/output/response-files/user-response.json')
-  #* print 'Response saved to file:', filePath
-  #
-  #
-  #* def responseArray = response.Customers
-  #* def lastindexofArray = response.length - 1
-  #* def lastElement = response[lastindexofArray]
-  #* match lastElement.id == NewUserID
-  #
-  #Delete the Customer
-  #Given url BaseUrl +'/'+ NewUserID
-  #When method delete
-  #Then status 200
-  #And print response
-  #
-  #Verify if customer is deleted
-  #Given url BaseUrl+'/'+NewUserID
-  #When method get
-  #Then status 404
-  #And print response
-  #
-  #Examples:
-  #	| karate.read('classpath:TestData.csv') |
+  Scenario Outline: Create New Customers, verify and Delete the Customer
+  Updating the Payload Request
+  * def UpdatedPayload = karate.read("classpath:CustomersAPI.json")
+  * def UpdatedPayload = karate.get(payload)
+  * UpdatedPayload.id= "Cstd"+<ID>
+  * UpdatedPayload.customerId= <ID>
+  * UpdatedPayload.name= "<Name>"
+  * UpdatedPayload.email = "<Email>"
+  * UpdatedPayload.phone = "<Phone>"
+  * UpdatedPayload.address.zip = "<Zip>"
+  * UpdatedPayload.accounts.balance = 1000.00
+  * print UpdatedPayload
+  
+   Adding New customer
+  Given url BaseUrl
+  And request UpdatedPayload
+  When method post
+  Then status 201
+  And print response
+  And response.id = "Cstd"+<ID>
+  And response.customerId=<ID>
+  And response.name= "<Name>"
+  And response.email = "<Email>"
+  And response.phone = "<Phone>"
+  And response.address.zip = "<Zip>"
+  And response.accounts.balance = 1000.00
+  * def NewUserID = response.id
+  * print 'NewUserID:', NewUserID
+  
+   Verify if new customer is added
+  Given url BaseUrl
+  When method get
+  Then status 200
+  And print response
+  * def responseContent = response
+  * def filePath = karate.write(responseContent, 'target/output/response-files/user-response.json')
+  * print 'Response saved to file:', filePath
+  
+  
+  * def responseArray = response.Customers
+  * def lastindexofArray = response.length - 1
+  * def lastElement = response[lastindexofArray]
+  * match lastElement.id == NewUserID
+  
+  Delete the Customer
+  Given url BaseUrl +'/'+ NewUserID
+  When method delete
+  Then status 200
+  And print response
+  
+  Verify if customer is deleted
+  Given url BaseUrl+'/'+NewUserID
+  When method get
+  Then status 404
+  And print response
+  
+  Examples:
+  	| karate.read('classpath:TestData.csv') |
   
   
   

@@ -17,23 +17,20 @@ public class UserActions{
 		
 		
 	}
-	//public static JavascriptExecutor js = (JavascriptExecutor)UserActions.driver;
+
 	public void Click(WebElement element) throws IOException {
-//		 js= (JavascriptExecutor)driver;
-//		js.executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 		Reporter.log("<p>"+element+" is clicked</p>");
-		//writer.write("<p>"+element+" is clicked</p>");
-		//Log4jListener.WriteToHTML("<p>"+element+" is clicked</p>");
 	}
 	
 	public void EnterText(WebElement element, String text) throws IOException {
-//		 js= (JavascriptExecutor)driver;
-//		js.executeScript("arguments[0].scrollIntoView(true);", element);
 		element.sendKeys(text);
 		Reporter.log("<p>"+text+" is Entered into the "+element+" TextBox</p>");
-		//writer.write("<p>"+text+" is Entered into the "+element+" TextBox</p>");
-		//Log4jListener.WriteToHTML("<p>"+text+" is Entered into the "+element+" TextBox</p>");
+	}
+	
+	public String GetText(WebElement element) throws IOException {
+		Reporter.log("<p>"+element.getText()+" is Fetched</p>");
+		return element.getText().trim();
 	}
 
 }

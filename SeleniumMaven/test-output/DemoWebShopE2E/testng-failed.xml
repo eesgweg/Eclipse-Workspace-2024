@@ -15,6 +15,7 @@
         <methods>
           <include name="Launch_And_Login"/>
           <include name="AddToCart"/>
+          <include name="Checkout"/>
         </methods>
       </class> <!-- TestExecution.DemoWebShop_OrderItem -->
     </classes>

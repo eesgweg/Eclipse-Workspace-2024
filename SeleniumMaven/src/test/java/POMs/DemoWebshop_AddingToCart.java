@@ -30,10 +30,10 @@ public class DemoWebshop_AddingToCart {
     @FindBy(xpath = "//*[@class = 'product-grid']//following::div[1]//div[2]//h2//a")
     private WebElement Book1;
 
-    @FindBy(xpath = "//*[@class = 'product-grid']//following::div[1]//div//div[2]//div[3]//div//span[2]")
+    @FindBy(xpath = "//*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[1]//span[2]")
     private WebElement Book1Price;
 
-    @FindBy(xpath = "//*[@class = 'product-grid']//following::div[1]//div//div[2]//div[3]//div[2]//input")
+    @FindBy(xpath = "//*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[2]//input")
     private WebElement Book1AddToCart;
 
     @FindBy(xpath = "//*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//h2//a")
@@ -60,9 +60,9 @@ public class DemoWebshop_AddingToCart {
         Reporter.log("Books tab clicked.");
     }
 
-    public void SelectBook1() throws IOException {
+    public void GetBook1() throws IOException {
     	ScrollToElement(Book1,driver);
-        UserActions.Click(Book1);
+    	Book1.getText();
         Reporter.log("Book 1 selected (Computing and Internet).");
     }
 
@@ -77,9 +77,9 @@ public class DemoWebshop_AddingToCart {
         Reporter.log("Added Book 1 to the cart.");
     }
 
-    public void SelectBook2() throws IOException {
+    public void GetBook2() throws IOException {
     	ScrollToElement(Book2,driver);
-        UserActions.Click(Book2);
+    	Book2.getText();
         Reporter.log("Book 2 selected (Fiction).");
     }
 
@@ -119,14 +119,14 @@ public class DemoWebshop_AddingToCart {
     // Composite method to simulate the process of adding books to the cart
     public String AddBooksToCart() throws IOException, InterruptedException {
         ClickBooksTab();
-    //    SelectBook1();
+		GetBook1();
         String Book1price=GetBook1Price();
         AddBook1ToCart();
         Thread.sleep(4000);  // Waiting for the book to be added to the cart
         GetBarNotificationText();
         ClickBooksTab();
         Thread.sleep(3000); 
-    //    SelectBook2();
+    	GetBook2();
         String Book2price =GetBook2Price();
         AddBook2ToCart();
         Thread.sleep(4000);  // Waiting for the book to be added to the cart

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-DemoWebShopE2E" title="TestExecution.DemoWebShop_OrderItem" class="method navigator-link" hash-for-method="AddToCart">AddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoWebShopE2E" title="TestExecution.DemoWebShop_OrderItem" class="method navigator-link" hash-for-method="Checkout">Checkout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,6 +142,15 @@
                   <span class="method-name">AddToCart</span>
                   <em>
 (Adding Items to the Shopping Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Checkout">
+                  </a> <!-- Checkout -->
+                  <span class="method-name">Checkout</span>
+                  <em>
+(Checkout Items from Shopping Cart)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -210,20 +224,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddToCart')
+data.setCell(0, 1, 'Launch_And_Login')
 data.setCell(0, 2, 'TestExecution.DemoWebShop_OrderItem')
-data.setCell(0, 3, 16354);
+data.setCell(0, 3, 16213);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Launch_And_Login')
+data.setCell(1, 1, 'AddToCart')
 data.setCell(1, 2, 'TestExecution.DemoWebShop_OrderItem')
-data.setCell(1, 3, 16093);
+data.setCell(1, 3, 16169);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Checkout')
+data.setCell(2, 2, 'TestExecution.DemoWebShop_OrderItem')
+data.setCell(2, 3, 2694);
 window.suiteTableData['DemoWebShopE2E']= { tableData: data, tableDiv: 'times-div-DemoWebShopE2E'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-DemoWebShopE2E">
               </div> <!-- times-div-DemoWebShopE2E -->
             </div> <!-- times-div -->
@@ -235,39 +253,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">AddToCart</span>
+              <span class="reporter-method-name">Checkout</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@href='/books']] is clicked</p></span>
-                <span class="reporter-method-output">Books tab clicked.</span>
-                <span class="reporter-method-output">Price of Book 1: 10.00</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div//div[2]//div[3]//div[2]//input] is clicked</p></span>
-                <span class="reporter-method-output">Added Book 1 to the cart.</span>
-                <span class="reporter-method-output">Notification Bar: The product has been added to your shopping cart</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@href='/books']] is clicked</p></span>
-                <span class="reporter-method-output">Books tab clicked.</span>
-                <span class="reporter-method-output">Price of Book 2: 24.00</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p></span>
-                <span class="reporter-method-output">Added Book 2 to the cart.</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p></span>
-                <span class="reporter-method-output">Navigated to the Shopping Cart.</span>
-                <span class="reporter-method-output">Books added to the cart and navigated to the Shopping Cart.</span>
+                <span class="reporter-method-output"><p>Computing and Internet is Fetched</p></span>
+                <span class="reporter-method-output"><p>Fiction is Fetched</p></span>
+                <span class="reporter-method-output"><p>10.00 is Fetched</p></span>
+                <span class="reporter-method-output"><p>24.00 is Fetched</p></span>
+                <span class="reporter-method-output"><p>10.00 is Fetched</p></span>
+                <span class="reporter-method-output"><p>24.00 is Fetched</p></span>
+                <span class="reporter-method-output"><p>34.00 is Fetched</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> id: termsofservice] is clicked</p></span>
+                <span class="reporter-method-output"><p>Proxy element for: DefaultElementLocator 'By.id: checkout' is clicked</p></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">Launch_And_Login</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initialized FireFox browser......!</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
                 <span class="reporter-method-output">Selected Login Tab.....!</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
                 <span class="reporter-method-output">Selected Login Tab.....!</span>
-                <span class="reporter-method-output"><p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> id: Email] TextBox</p></span>
+                <span class="reporter-method-output"><p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> id: Email] TextBox</p></span>
                 <span class="reporter-method-output">UserID Enetered</span>
-                <span class="reporter-method-output"><p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (8ce3f8bf-7343-4c13-b561-da30ff90c470)] -> id: Password] TextBox</p></span>
+                <span class="reporter-method-output"><p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> id: Password] TextBox</p></span>
                 <span class="reporter-method-output">Password Enetered</span>
                 <span class="reporter-method-output"><p>Proxy element for: DefaultElementLocator 'By.xpath: //*[@value ='Log in']' is clicked</p></span>
                 <span class="reporter-method-output">Login Button is clicked</span>
                 <span class="reporter-method-output">Logged In to DemoWebshop</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">AddToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> xpath: //*[@href='/books']] is clicked</p></span>
+                <span class="reporter-method-output">Books tab clicked.</span>
+                <span class="reporter-method-output">Book 1 selected (Computing and Internet).</span>
+                <span class="reporter-method-output">Price of Book 1: 10.00</span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[2]//input] is clicked</p></span>
+                <span class="reporter-method-output">Added Book 1 to the cart.</span>
+                <span class="reporter-method-output">Notification Bar: The product has been added to your shopping cart</span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> xpath: //*[@href='/books']] is clicked</p></span>
+                <span class="reporter-method-output">Books tab clicked.</span>
+                <span class="reporter-method-output">Book 2 selected (Fiction).</span>
+                <span class="reporter-method-output">Price of Book 2: 24.00</span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p></span>
+                <span class="reporter-method-output">Added Book 2 to the cart.</span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (c4586e19-c12c-4000-a885-7bf8a29b0af3)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p></span>
+                <span class="reporter-method-output">Navigated to the Shopping Cart.</span>
+                <span class="reporter-method-output">Books added to the cart and navigated to the Shopping Cart.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -292,7 +326,11 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">16122 ms</span>
+                <span class="method-start">16242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Checkout</span>
+                <span class="method-start">32420 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
