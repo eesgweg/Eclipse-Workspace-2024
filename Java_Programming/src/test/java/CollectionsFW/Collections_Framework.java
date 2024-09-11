@@ -8,6 +8,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.testng.annotations.Test;
 
@@ -420,6 +422,32 @@ public class Collections_Framework {
 			index++;
 		}
 		System.out.println("Array to converted Hashmap: "+CricketMap);
+	}
+	
+	@Test(groups = "Streams")
+	public void APIStreams() {
+		List<Integer> li = List.of(1,3,6,2,5,4,2,1);
+		Stream<Integer> stream = li.stream();
+		System.out.println(stream);
+		System.err.println("---- sorted().distinct()---------");
+		stream.sorted().distinct().forEach(System.out::println);
+		System.err.println("---- filter()---------");
+		li.stream().filter(n -> n%2 == 0).forEach(System.out::print);
+		 System.out.println();
+		System.err.println("---- peek() and limit(3)---------");
+		li.stream().peek(n ->  System.out.println("Peeking: "+n)).limit(3).forEach(System.out::println);
+        System.err.println("---- skip()---------");
+		li.stream().skip(3).forEach(System.out::println);
+		System.err.println("---- reduce()---------");		
+		int sum = li.stream().reduce(2,(a,b) -> a+b);
+		System.out.println(sum);		
+		Set<Integer> Convertedset =li.stream().collect(Collectors.toSet());
+		System.out.println("Convertedset: "+Convertedset);	
+		System.err.println(Convertedset.stream().allMatch(n -> n%2 == 0));
+		System.err.println(Convertedset.stream().anyMatch(n -> n%2 == 1));
+		System.err.println(Convertedset.stream().noneMatch(n -> n%5 == 0));
+		System.err.println("------ Map()---------");
+		Convertedset.stream().map(n -> n*2).forEach(System.out::println);
 	}
 
 }
