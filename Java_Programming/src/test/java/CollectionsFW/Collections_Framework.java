@@ -139,7 +139,7 @@ public class Collections_Framework {
 		System.out.println(EM.replace(game.CRICEKT, "Virat", "Sachin"));
 		System.out.println("Replaced by condition of old value EnumMap: "+EM);
 		
-		Map<Integer,String> myMap= Map.of(1,"Mani",2,"Swathi",3,"hi",4,"hello");			
+		Map<Integer,String> myMap= Map.of(1,"George",2,"Mathew",3,"hi",4,"hello");			
 		System.out.println(myMap);
 		HashMap<Integer,String> myhashmap = new HashMap<Integer, String>();
 		myhashmap.putAll(myMap);
@@ -170,7 +170,8 @@ public class Collections_Framework {
 		NM.put(10, 10);
 		NM.put(9, 9);
 		System.out.println("Returns the lowest key among those keys that are greater than or equal to the specified key: "+NM.ceilingKey(7));
-		System.out.println("returns an entry with the highest key among all those entries whose keys are less than or equal to the specified key: "+NM.floorKey(11));
+		System.out.println("returns an entry with the highest key "
+				+ "among all those entries whose keys are less than or equal to the specified key: "+NM.floorKey(11));
 		System.out.println("reverse the order of entries in a map: "+NM.descendingMap());
 		System.out.println("reverse the order of keys in a map: "+NM.descendingKeySet());
 		System.out.println("NextHighestKey in the map after 3 Key: : "+NM.higherKey(3));
@@ -182,9 +183,7 @@ public class Collections_Framework {
 		System.out.println("NavigableMap: "+NM);
 		
 		ConcurrentHashMap<Integer, Integer> CM = new ConcurrentHashMap<Integer, Integer>();
-		CM.put(1, 11);
-		CM.put(2, 22);
-		CM.put(3, 33);
+		CM.put(1, 11);		CM.put(2, 22);		CM.put(3, 33);
 		System.out.println(CM);
 		CM.forEach(4,(k,v) -> System.out.println(Math.multiplyExact(k, 2)+" : "+Math.addExact(k, v)));
 		int sum = CM.reduce(4, (k, v) -> v, (v1, v2) -> v1 + v2);
@@ -193,8 +192,7 @@ public class Collections_Framework {
 		System.out.println(just);		
 		for(Entry<Integer, Integer> g : CM.entrySet()) {
 			System.out.println(g.getKey().compareTo(11));
-		}
-		
+		}		
 		myTreeMap.replaceAll((key,value) -> value.concat("-00"));
 		System.out.println("TreeMap after ReplaceALL: "+myTreeMap);
 		System.out.println(myhashmap);
@@ -202,12 +200,12 @@ public class Collections_Framework {
 		System.out.println(myhashmap.values());
 		System.out.println(myhashmap.entrySet());
 		System.out.println(myhashmap.containsKey(1));
-		System.out.println(myhashmap.containsValue("Swathi"));
+		System.out.println(myhashmap.containsValue("Mathew"));
 		myhashmap.put(0, "gbkbh");
 		System.out.println(myhashmap);
 		myhashmap.remove(3);
 		System.out.println(myhashmap);
-		myhashmap.replace(4, "Sonia");
+		myhashmap.replace(4, "SSSS");
 		System.out.println(myhashmap);
 	}
 	
@@ -224,6 +222,16 @@ public class Collections_Framework {
 		System.out.println("Add 4 to the Set: "+myTreeSet);
 		myTreeSet.remove(5);
 		System.out.println("Remove 5 from the Set: "+myTreeSet);
+		System.out.println("First element: "+myTreeSet.first()); System.out.println("Last element: "+myTreeSet.last());
+		System.out.println("Poll First element: "+myTreeSet.pollFirst());System.out.println("Remove First element: "+myTreeSet.removeFirst());
+		System.out.println("Set: "+myTreeSet);
+		System.out.println("Poll Last element: "+myTreeSet.pollLast());System.out.println("Remove Last element: "+myTreeSet.removeLast());
+		System.out.println("Set: "+myTreeSet);
+		Object m = myTreeSet.clone();
+		System.out.println("Çloned Set: "+m);
+		myTreeSet.clear();
+		System.out.println("Set: "+myTreeSet);
+
 	}
 	
 	@Test(groups = "Stacks")

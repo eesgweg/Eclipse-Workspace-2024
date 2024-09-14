@@ -1,11 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Initialized FireFox browser......!]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Selected Login Tab.....!]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Selected Login Tab.....!]]>
+    </line>
+    <line>
+      <![CDATA[<p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: Email] TextBox</p>]]>
+    </line>
+    <line>
+      <![CDATA[UserID Enetered]]>
+    </line>
+    <line>
+      <![CDATA[<p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: Password] TextBox</p>]]>
+    </line>
+    <line>
+      <![CDATA[Password Enetered]]>
+    </line>
+    <line>
+      <![CDATA[<p>Proxy element for: DefaultElementLocator 'By.xpath: //*[@value ='Log in']' is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Login Button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[Logged In to DemoWebshop]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@href='/books']] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Books tab clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Book 1 selected (Computing and Internet).]]>
+    </line>
+    <line>
+      <![CDATA[Price of Book 1: 10.00]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[2]//input] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Added Book 1 to the cart.]]>
+    </line>
+    <line>
+      <![CDATA[Notification Bar: The product has been added to your shopping cart]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@href='/books']] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Books tab clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Book 2 selected (Fiction).]]>
+    </line>
+    <line>
+      <![CDATA[Price of Book 2: 24.00]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Added Book 2 to the cart.]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[Navigated to the Shopping Cart.]]>
+    </line>
+    <line>
+      <![CDATA[Books added to the cart and navigated to the Shopping Cart.]]>
+    </line>
+    <line>
+      <![CDATA[<p>Computing and Internet is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Fiction is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>10.00 is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>24.00 is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>10.00 is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>24.00 is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>34.00 is Fetched</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: termsofservice] is clicked</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>Proxy element for: DefaultElementLocator 'By.id: checkout' is clicked</p>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-08-02T15:16:12 IST" name="Surefire suite" finished-at="2024-08-02T15:16:12 IST" duration-ms="6">
+  <suite started-at="2024-09-14T14:56:41 IST" name="DemoWebShopE2E" finished-at="2024-09-14T14:57:13 IST" duration-ms="32305">
     <groups>
     </groups>
-    <test started-at="2024-08-02T15:16:12 IST" name="Surefire test" finished-at="2024-08-02T15:16:12 IST" duration-ms="6">
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    <test started-at="2024-09-14T14:56:41 IST" name="Test" finished-at="2024-09-14T14:57:13 IST" duration-ms="32305">
+      <class name="TestExecution.DemoWebShop_OrderItem">
+        <test-method signature="Launch_And_Login()[pri:1, instance:TestExecution.DemoWebShop_OrderItem@3e58a80e]" started-at="2024-09-14T14:56:41 IST" name="Launch_And_Login" description="Log In to Demo Workshop Portal" finished-at="2024-09-14T14:56:55 IST" duration-ms="14150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Initialized FireFox browser......!]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Selected Login Tab.....!]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Selected Login Tab.....!]]>
+            </line>
+            <line>
+              <![CDATA[<p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: Email] TextBox</p>]]>
+            </line>
+            <line>
+              <![CDATA[UserID Enetered]]>
+            </line>
+            <line>
+              <![CDATA[<p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: Password] TextBox</p>]]>
+            </line>
+            <line>
+              <![CDATA[Password Enetered]]>
+            </line>
+            <line>
+              <![CDATA[<p>Proxy element for: DefaultElementLocator 'By.xpath: //*[@value ='Log in']' is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Login Button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[Logged In to DemoWebshop]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Launch_And_Login -->
+        <test-method signature="AddToCart()[pri:0, instance:TestExecution.DemoWebShop_OrderItem@3e58a80e]" started-at="2024-09-14T14:56:55 IST" name="AddToCart" description="Adding Items to the Shopping Cart" finished-at="2024-09-14T14:57:10 IST" depends-on-methods="TestExecution.DemoWebShop_OrderItem.Launch_And_Login" duration-ms="15165" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@href='/books']] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Books tab clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Book 1 selected (Computing and Internet).]]>
+            </line>
+            <line>
+              <![CDATA[Price of Book 1: 10.00]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[2]//input] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Added Book 1 to the cart.]]>
+            </line>
+            <line>
+              <![CDATA[Notification Bar: The product has been added to your shopping cart]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@href='/books']] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Books tab clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Book 2 selected (Fiction).]]>
+            </line>
+            <line>
+              <![CDATA[Price of Book 2: 24.00]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Added Book 2 to the cart.]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[Navigated to the Shopping Cart.]]>
+            </line>
+            <line>
+              <![CDATA[Books added to the cart and navigated to the Shopping Cart.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method signature="Checkout()[pri:0, instance:TestExecution.DemoWebShop_OrderItem@3e58a80e]" started-at="2024-09-14T14:57:10 IST" name="Checkout" description="Checkout Items from Shopping Cart" finished-at="2024-09-14T14:57:13 IST" depends-on-methods="TestExecution.DemoWebShop_OrderItem.AddToCart" duration-ms="2908" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>Computing and Internet is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Fiction is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>10.00 is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>24.00 is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>10.00 is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>24.00 is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>34.00 is Fetched</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: termsofservice] is clicked</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>Proxy element for: DefaultElementLocator 'By.id: checkout' is clicked</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+      </class> <!-- TestExecution.DemoWebShop_OrderItem -->
+    </test> <!-- Test -->
+  </suite> <!-- DemoWebShopE2E -->
 </testng-results>

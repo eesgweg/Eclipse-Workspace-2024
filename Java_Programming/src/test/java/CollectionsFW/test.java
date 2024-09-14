@@ -6,6 +6,7 @@ import java.util.*;
 import java.util.Map.Entry;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
@@ -13,6 +14,8 @@ import java.util.regex.Pattern;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import CollectionsFW.Collections_Framework.game;
 
 public class test {
 	public static final String RESET = "\u001B[0m";
@@ -23,7 +26,7 @@ public class test {
 	public static final String MAGENTA = "\u001B[35m";
 	public static final String CYAN = "\u001B[36m";
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 //		Class<?> clazz = Collections_Framework.class;
 //        Method[] methods = clazz.getDeclaredMethods();
 //        List<Method> Methods = new ArrayList<Method>();
@@ -75,21 +78,36 @@ public class test {
 //		names.stream().filter(n -> n.contains("a")).map(n -> n+"_AAA").forEach(n -> System.out.println(n));
 		
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter First number:");
-		String s1 = scanner.nextLine();
-		System.out.println("Enter Second Word:");
-		String s2 = scanner.nextLine();
-		System.out.println(s1+s2);
-		
-		
-		
-		
-	}
+//		Scanner scanner = new Scanner(System.in);
+//		System.out.println("Enter First number:");
+//		String s1 = scanner.nextLine();
+//		System.out.println("Enter Second Word:");
+//		String s2 = scanner.nextLine();
+//		System.out.println(s1+s2);
 
+		Stack<String> stack = new Stack<String>();
+		if(stack.isEmpty()) {
+			System.out.println("Stack is Empty....");
+		}
+		String str = "Palinndrome", reverse="";
+		for(char x : str.toCharArray()) {
+			stack.push(x+"");
+			
+		}
+		System.out.println(stack.size());
+		for(int i=0;i <= stack.size();i++) {
+			System.out.println(i);
+			reverse+=stack.pop();
+			System.out.println(reverse);
+		}
+		
+		
+		System.out.println(stack);
+		
+		
+			}
 	public void A() {
-
-	}
+		}
 
 	public void B() {
 
