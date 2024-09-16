@@ -18,6 +18,7 @@ public class DemoWebShop_OrderItem {
 	DemoWebshop_HomePage DemoWebshop_HomePage;
 	DemoWebshop_AddingToCart DemoWebshop_AddingToCart;
 	POMs.DemoWebShop_ShoppingCart DemoWebShop_ShoppingCart;
+	POMs.DemoWebShop_Checkout DemoWebShop_Checkout;
 	String Book1price = null, Book2price = null;
 
 	@Test(description = "Log In to Demo Workshop Portal", priority = 1)
@@ -55,6 +56,16 @@ public class DemoWebShop_OrderItem {
 		 assertEquals(TotalPrice+"0", DemoWebShop_ShoppingCart.GetTotalPrice());
 		 DemoWebShop_ShoppingCart.AgreeToTerms();
 		 DemoWebShop_ShoppingCart.ProceedToCheckOut();
+		
+	}
+	
+	@Test(description = "Payment details and shipping", dependsOnMethods = "Checkout")
+	public void Payment_Shipping() throws IOException{
+		 DemoWebShop_Checkout = new POMs.DemoWebShop_Checkout(driver);
+		 DemoWebShop_Checkout.ClickBillingAddress_Continue();
+		 DemoWebShop_Checkout.ClickShippingAddress_Continue();
+		 DemoWebShop_Checkout.ClickShippingMethod_Continue();
+		 DemoWebShop_Checkout.Confirm_Order();
 		
 	}
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="33.039" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="40.405" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\swats\AppData\Local\Temp\surefire5040342524585671415\surefirebooter9751818499323009369.jar C:\Users\swats\AppData\Local\Temp\surefire5040342524585671415 2024-09-14T14-56-40_246-jvmRun1 surefire4499747333487283234tmp surefire_0407131887690969553tmp"/>
+    <property name="sun.java.command" value="C:\Users\swats\AppData\Local\Temp\surefire15966630256041829715\surefirebooter744211194433751364.jar C:\Users\swats\AppData\Local\Temp\surefire15966630256041829715 2024-09-15T12-51-35_773-jvmRun1 surefire12287156518786418875tmp surefire_08367951343255510492tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\swats\Mani Eclipse New Workspace\SeleniumMaven\target\test-classes;C:\Users\swats\Mani Eclipse New Workspace\SeleniumMaven\target\classes;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.0\selenium-api-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.0\selenium-chrome-driver-4.1.0.jar;C:\Users\swats\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\swats\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\swats\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\swats\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\swats\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\swats\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\swats\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.0\selenium-chromium-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.0\selenium-json-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.0\selenium-firefox-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.0\selenium-remote-driver-4.1.0.jar;C:\Users\swats\.m2\repository\io\netty\netty-buffer\4.1.69.Final\netty-buffer-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-codec-http\4.1.69.Final\netty-codec-http-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-codec\4.1.69.Final\netty-codec-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-handler\4.1.69.Final\netty-handler-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-common\4.1.69.Final\netty-common-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-transport-native-epoll\4.1.69.Final\netty-transport-native-epoll-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.69.Final\netty-transport-native-kqueue-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.69.Final\netty-transport-native-unix-common-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-transport\4.1.69.Final\netty-transport-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-resolver\4.1.69.Final\netty-resolver-4.1.69.Final.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-api\1.9.0\opentelemetry-api-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-context\1.9.0\opentelemetry-context-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.9.0\opentelemetry-exporter-logging-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.9.0-alpha\opentelemetry-sdk-metrics-1.9.0-alpha.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.9.0-alpha\opentelemetry-sdk-logs-1.9.0-alpha.jar;C:\Users\swats\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\swats\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\swats\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.9.0\opentelemetry-sdk-common-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.9.0\opentelemetry-sdk-extension-autoconfigure-spi-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.9.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.9.0-alpha.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.9.0\opentelemetry-sdk-trace-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.9.0-alpha\opentelemetry-api-metrics-1.9.0-alpha.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.9.0\opentelemetry-sdk-1.9.0.jar;C:\Users\swats\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.9.0-alpha\opentelemetry-semconv-1.9.0-alpha.jar;C:\Users\swats\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\swats\.m2\repository\net\bytebuddy\byte-buddy\1.12.1\byte-buddy-1.12.1.jar;C:\Users\swats\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\swats\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\swats\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\swats\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\swats\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\swats\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\swats\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\swats\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\swats\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\swats\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.0\selenium-support-4.1.0.jar;C:\Users\swats\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\swats\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\swats\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-http-jdk-client\4.8.1\selenium-http-jdk-client-4.8.1.jar;C:\Users\swats\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\swats\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\swats\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\swats\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\swats\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\swats\.m2\repository\org\apache\poi\poi\5.3.0\poi-5.3.0.jar;C:\Users\swats\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\swats\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\swats\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\swats\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\swats\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\swats\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\swats\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\swats\.m2\repository\org\apache\commons\commons-collections4\4.5.0-M2\commons-collections4-4.5.0-M2.jar;C:\Users\swats\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\swats\AppData\Local\Temp\surefire5040342524585671415\surefirebooter9751818499323009369.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\swats\AppData\Local\Temp\surefire15966630256041829715\surefirebooter744211194433751364.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -61,16 +61,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Launch_And_Login" classname="TestExecution.DemoWebShop_OrderItem" time="14.158">
-    <system-out><![CDATA[2024-09-14 14:56:41 INFO  Log4jListener:28 - Test Suite started: Test
-2024-09-14 14:56:41 INFO  Log4jListener:51 - Test started: Launch_And_Login
+  <testcase name="Launch_And_Login" classname="TestExecution.DemoWebShop_OrderItem" time="20.111">
+    <system-out><![CDATA[2024-09-15 12:51:38 INFO  Log4jListener:28 - Test Suite started: Test
+2024-09-15 12:51:38 INFO  Log4jListener:51 - Test started: Launch_And_Login
 Before Method: Launch_And_Login
-2024-09-14T09:26:41.931501200Z TestNG-test=Test-1 ERROR Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2024-09-15T07:21:39.352164300Z TestNG-test=Test-1 ERROR Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
 https://demowebshop.tricentis.com/login
 QUJDMDA0N0BnbWFpbC5jb20
 bWJAMTIz
 After Method: Launch_And_Login - PASSED
-2024-09-14 14:56:55 INFO  Log4jListener:57 - Test passed: Launch_And_Login
+2024-09-15 12:51:59 INFO  Log4jListener:57 - Test passed: Launch_And_Login
 ]]></system-out>
     <system-err><![CDATA[-------------<!DOCTYPE html>
 <html>
@@ -86,17 +86,17 @@ After Method: Launch_And_Login - PASSED
 SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1726306002698	geckodriver	INFO	Listening on 127.0.0.1:49448
-1726306003113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "52781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swats\\AppData\\Local\\Temp\\rust_mozprofilerNodtx"
+1726384900529	geckodriver	INFO	Listening on 127.0.0.1:49336
+1726384901116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "--remote-debugging-port" "54100" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\swats\\AppData\\Local\\Temp\\rust_mozprofile5Jn74w"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
-1726306003630	Marionette	INFO	Marionette enabled
-1726306003843	Marionette	INFO	Listening on port 57979
-WebDriver BiDi listening on ws://127.0.0.1:52781
-Read port: 57979
-1726306004058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Sep 14, 2024 2:56:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1726384902112	Marionette	INFO	Marionette enabled
+1726384902497	Marionette	INFO	Listening on port 50619
+WebDriver BiDi listening on ws://127.0.0.1:54100
+Read port: 50619
+1726384903066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Sep 15, 2024 12:51:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demowebshop.tricentis.com."
@@ -112,13 +112,13 @@ JavaScript warning: https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.
 -------------<p>Test passed: Launch_And_Login</p>-------------
 ]]></system-err>
   </testcase>
-  <testcase name="AddToCart" classname="TestExecution.DemoWebShop_OrderItem" time="15.179">
-    <system-out><![CDATA[2024-09-14 14:56:55 INFO  Log4jListener:51 - Test started: AddToCart
+  <testcase name="AddToCart" classname="TestExecution.DemoWebShop_OrderItem" time="16.597">
+    <system-out><![CDATA[2024-09-15 12:51:59 INFO  Log4jListener:51 - Test started: AddToCart
 Before Method: AddToCart
 10.00
 24.00
 After Method: AddToCart - PASSED
-2024-09-14 14:57:10 INFO  Log4jListener:57 - Test passed: AddToCart
+2024-09-15 12:52:15 INFO  Log4jListener:57 - Test passed: AddToCart
 ]]></system-out>
     <system-err><![CDATA[-------------<p>Test started: AddToCart</p>-------------
 -------------<p>Before Method: AddToCart</p>-------------
@@ -126,18 +126,132 @@ After Method: AddToCart - PASSED
 -------------<p>Test passed: AddToCart</p>-------------
 ]]></system-err>
   </testcase>
-  <testcase name="Checkout" classname="TestExecution.DemoWebShop_OrderItem" time="2.912">
-    <system-out><![CDATA[2024-09-14 14:57:10 INFO  Log4jListener:51 - Test started: Checkout
+  <testcase name="Checkout" classname="TestExecution.DemoWebShop_OrderItem" time="2.292">
+    <system-out><![CDATA[2024-09-15 12:52:15 INFO  Log4jListener:51 - Test started: Checkout
 Before Method: Checkout
 Computing and Internet
 Fiction
 After Method: Checkout - PASSED
-2024-09-14 14:57:13 INFO  Log4jListener:57 - Test passed: Checkout
+2024-09-15 12:52:18 INFO  Log4jListener:57 - Test passed: Checkout
 ]]></system-out>
     <system-err><![CDATA[-------------<p>Test started: Checkout</p>-------------
 -------------<p>Before Method: Checkout</p>-------------
 -------------<p>After Method: Checkout - PASSED</p>-------------
 -------------<p>Test passed: Checkout</p>-------------
+]]></system-err>
+  </testcase>
+  <testcase name="Payment_Shipping" classname="TestExecution.DemoWebShop_OrderItem" time="0.399">
+    <failure message="Element &lt;input class=&quot;button-1 new-address-next-step-button&quot; type=&quot;button&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;&#10;System info: host: &apos;MANIBEEEE&apos;, ip: &apos;192.168.99.242&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [025ec693-da1c-406c-aa75-ff1a44fa8642, clickElement {id=9cf97e0a-cd40-4bce-afb3-0af7f75d0ac3}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Element: [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -&gt; css selector: #shipping-buttons-container input]&#10;Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="button-1 new-address-next-step-button" type="button"> could not be scrolled into view
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANIBEEEE', ip: '192.168.99.242', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [025ec693-da1c-406c-aa75-ff1a44fa8642, clickElement {id=9cf97e0a-cd40-4bce-afb3-0af7f75d0ac3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> css selector: #shipping-buttons-container input]
+Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642
+	at TestExecution.DemoWebShop_OrderItem.Payment_Shipping(DemoWebShop_OrderItem.java:66)
+]]></failure>
+    <system-out><![CDATA[2024-09-15 12:52:18 INFO  Log4jListener:51 - Test started: Payment_Shipping
+Before Method: Payment_Shipping
+After Method: Payment_Shipping - FAILED
+2024-09-15 12:52:18 ERROR Log4jListener:63 - Test failed: Payment_Shipping
+org.openqa.selenium.ElementNotInteractableException: Element <input class="button-1 new-address-next-step-button" type="button"> could not be scrolled into view
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANIBEEEE', ip: '192.168.99.242', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [025ec693-da1c-406c-aa75-ff1a44fa8642, clickElement {id=9cf97e0a-cd40-4bce-afb3-0af7f75d0ac3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> css selector: #shipping-buttons-container input]
+Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at Utlilities.UserActions.Click(UserActions.java:22)
+	at POMs.DemoWebShop_Checkout.ClickShippingAddress_Continue(DemoWebShop_Checkout.java:35)
+	at TestExecution.DemoWebShop_OrderItem.Payment_Shipping(DemoWebShop_OrderItem.java:66)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></system-out>
+    <system-err><![CDATA[-------------<p>Test started: Payment_Shipping</p>-------------
+-------------<p>Before Method: Payment_Shipping</p>-------------
+-------------<p>After Method: Payment_Shipping - FAILED</p>-------------
+-------------</body>
+</html>-------------
+-------------<p>Test failed: Payment_Shipping : 
+org.openqa.selenium.ElementNotInteractableException: Element <input class="button-1 new-address-next-step-button" type="button"> could not be scrolled into view
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANIBEEEE', ip: '192.168.99.242', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [025ec693-da1c-406c-aa75-ff1a44fa8642, clickElement {id=9cf97e0a-cd40-4bce-afb3-0af7f75d0ac3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> css selector: #shipping-buttons-container input]
+Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642</p>-------------
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedWriter.ensureOpen(BufferedWriter.java:132)
+	at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:325)
+	at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+	at java.base/java.io.Writer.write(Writer.java:278)
+	at Utlilities.Log4jListener.WriteToHTML(Log4jListener.java:84)
+	at Utlilities.Log4jListener.onTestFailure(Log4jListener.java:64)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+-------------</body>
+</html>-------------
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedWriter.ensureOpen(BufferedWriter.java:132)
+	at java.base/java.io.BufferedWriter.implWrite(BufferedWriter.java:325)
+	at java.base/java.io.BufferedWriter.write(BufferedWriter.java:313)
+	at java.base/java.io.Writer.write(Writer.java:278)
+	at Utlilities.Log4jListener.WriteToHTML(Log4jListener.java:84)
+	at Utlilities.Log4jListener.CloseHTML(Log4jListener.java:93)
+	at Utlilities.Log4jListener.onTestFailure(Log4jListener.java:65)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]></system-err>
   </testcase>
 </testsuite>

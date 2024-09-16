@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-DemoWebShopE2E" class="navigator-link">
-              <span class="suite-name border-passed">DemoWebShopE2E</span>
+              <span class="suite-name border-failed">DemoWebShopE2E</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DemoWebShopE2E" class="hide-methods failed suite-DemoWebShopE2E"> (hide)</a> <!-- hide-methods failed suite-DemoWebShopE2E -->
+                      <a href="#" panel-name="suite-DemoWebShopE2E" class="show-methods failed suite-DemoWebShopE2E"> (show)</a> <!-- show-methods failed suite-DemoWebShopE2E -->
+                    </span>
+                    <div class="method-list-content failed suite-DemoWebShopE2E">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoWebShopE2E" title="TestExecution.DemoWebShop_OrderItem" class="method navigator-link" hash-for-method="Payment_Shipping">Payment_Shipping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DemoWebShopE2E -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -129,6 +143,50 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DemoWebShopE2E" class="panel DemoWebShopE2E">
+          <div class="suite-DemoWebShopE2E-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestExecution.DemoWebShop_OrderItem</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Payment_Shipping">
+                  </a> <!-- Payment_Shipping -->
+                  <span class="method-name">Payment_Shipping</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;input class=&quot;button-1 new-address-next-step-button&quot; type=&quot;button&quot;&gt; could not be scrolled into view
+Build info: version: &apos;4.1.0&apos;, revision: &apos;87802e897b&apos;
+System info: host: &apos;MANIBEEEE&apos;, ip: &apos;192.168.99.242&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [025ec693-da1c-406c-aa75-ff1a44fa8642, clickElement {id=9cf97e0a-cd40-4bce-afb3-0af7f75d0ac3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -&gt; css selector: #shipping-buttons-container input]
+Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at Utlilities.UserActions.Click(UserActions.java:22)
+	at POMs.DemoWebShop_Checkout.ClickShippingAddress_Continue(DemoWebShop_Checkout.java:35)
+	at TestExecution.DemoWebShop_OrderItem.Payment_Shipping(DemoWebShop_OrderItem.java:66)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Payment details and shipping)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoWebShopE2E-class-failed -->
           <div class="suite-DemoWebShopE2E-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -224,24 +282,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddToCart')
+data.setCell(0, 1, 'Launch_And_Login')
 data.setCell(0, 2, 'TestExecution.DemoWebShop_OrderItem')
-data.setCell(0, 3, 15165);
+data.setCell(0, 3, 20094);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Launch_And_Login')
+data.setCell(1, 1, 'AddToCart')
 data.setCell(1, 2, 'TestExecution.DemoWebShop_OrderItem')
-data.setCell(1, 3, 14150);
+data.setCell(1, 3, 16586);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Checkout')
 data.setCell(2, 2, 'TestExecution.DemoWebShop_OrderItem')
-data.setCell(2, 3, 2908);
+data.setCell(2, 3, 2288);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Payment_Shipping')
+data.setCell(3, 2, 'TestExecution.DemoWebShop_OrderItem')
+data.setCell(3, 3, 332);
 window.suiteTableData['DemoWebShopE2E']= { tableData: data, tableDiv: 'times-div-DemoWebShopE2E'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
               <div id="times-div-DemoWebShopE2E">
               </div> <!-- times-div-DemoWebShopE2E -->
             </div> <!-- times-div -->
@@ -256,13 +318,13 @@ return data;
               <span class="reporter-method-name">Launch_And_Login</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Initialized FireFox browser......!</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
                 <span class="reporter-method-output">Selected Login Tab.....!</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> xpath: //*[@id = 'topcartlink']//preceding::a[1]] is clicked</p></span>
                 <span class="reporter-method-output">Selected Login Tab.....!</span>
-                <span class="reporter-method-output"><p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: Email] TextBox</p></span>
+                <span class="reporter-method-output"><p>ABC0047@gmail.com is Entered into the [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> id: Email] TextBox</p></span>
                 <span class="reporter-method-output">UserID Enetered</span>
-                <span class="reporter-method-output"><p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: Password] TextBox</p></span>
+                <span class="reporter-method-output"><p>mb@123 is Entered into the [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> id: Password] TextBox</p></span>
                 <span class="reporter-method-output">Password Enetered</span>
                 <span class="reporter-method-output"><p>Proxy element for: DefaultElementLocator 'By.xpath: //*[@value ='Log in']' is clicked</p></span>
                 <span class="reporter-method-output">Login Button is clicked</span>
@@ -279,29 +341,35 @@ return data;
                 <span class="reporter-method-output"><p>10.00 is Fetched</p></span>
                 <span class="reporter-method-output"><p>24.00 is Fetched</p></span>
                 <span class="reporter-method-output"><p>34.00 is Fetched</p></span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> id: termsofservice] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> id: termsofservice] is clicked</p></span>
                 <span class="reporter-method-output"><p>Proxy element for: DefaultElementLocator 'By.id: checkout' is clicked</p></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">AddToCart</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@href='/books']] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> xpath: //*[@href='/books']] is clicked</p></span>
                 <span class="reporter-method-output">Books tab clicked.</span>
                 <span class="reporter-method-output">Book 1 selected (Computing and Internet).</span>
                 <span class="reporter-method-output">Price of Book 1: 10.00</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[2]//input] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> xpath: //*[@class = 'product-grid']//following::div[1]//div[2]//div[3]//div[2]//input] is clicked</p></span>
                 <span class="reporter-method-output">Added Book 1 to the cart.</span>
                 <span class="reporter-method-output">Notification Bar: The product has been added to your shopping cart</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@href='/books']] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> xpath: //*[@href='/books']] is clicked</p></span>
                 <span class="reporter-method-output">Books tab clicked.</span>
                 <span class="reporter-method-output">Book 2 selected (Fiction).</span>
                 <span class="reporter-method-output">Price of Book 2: 24.00</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> xpath: //*[@class = 'product-grid']//*[@class='item-box'][3]//div[@class='details']//div[3]//div[2]//input] is clicked</p></span>
                 <span class="reporter-method-output">Added Book 2 to the cart.</span>
-                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (72a8bf11-b319-43d4-80e6-bb6c70d3cba1)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p></span>
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> css selector: #topcartlink>a>span:nth-child(2)] is clicked</p></span>
                 <span class="reporter-method-output">Navigated to the Shopping Cart.</span>
                 <span class="reporter-method-output">Books added to the cart and navigated to the Shopping Cart.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Payment_Shipping</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>[[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> css selector: #billing-buttons-container input] is clicked</p></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -326,11 +394,17 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">14161 ms</span>
+                <span class="method-start">20124 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Checkout</span>
-                <span class="method-start">29344 ms</span>
+                <span class="method-start">36726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Payment_Shipping</span>
+                <span class="method-start">39023 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

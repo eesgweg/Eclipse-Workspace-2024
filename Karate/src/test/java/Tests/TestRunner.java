@@ -9,6 +9,6 @@ class TestRunner {
     
     @Karate.Test
     Karate testAll() {
-        return Karate.run("FirstAPItest").relativeTo(getClass());
+        return Karate.run("Users").relativeTo(getClass());
     }
 }

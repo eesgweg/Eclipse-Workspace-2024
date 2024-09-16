@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.039 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 40.405 s <<< FAILURE! - in TestSuite
+TestExecution.DemoWebShop_OrderItem.Payment_Shipping  Time elapsed: 0.399 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input class="button-1 new-address-next-step-button" type="button"> could not be scrolled into view
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANIBEEEE', ip: '192.168.99.242', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [025ec693-da1c-406c-aa75-ff1a44fa8642, clickElement {id=9cf97e0a-cd40-4bce-afb3-0af7f75d0ac3}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11196, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on WINDOWS (025ec693-da1c-406c-aa75-ff1a44fa8642)] -> css selector: #shipping-buttons-container input]
+Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642
+	at TestExecution.DemoWebShop_OrderItem.Payment_Shipping(DemoWebShop_OrderItem.java:66)
+
