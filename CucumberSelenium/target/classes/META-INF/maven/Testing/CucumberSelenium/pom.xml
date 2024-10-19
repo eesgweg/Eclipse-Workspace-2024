@@ -59,6 +59,11 @@
                 <includes>
                     <include>**/TestRunner.java</include> <!-- Include your test runner class -->
                 </includes>
+                <systemPropertyVariables>
+                    <!-- You can set a default tag here if needed -->
+                   <!--  <cucumber.filter.tags>{@Regression}</cucumber.filter.tags>
+					<APIkey>{$mani@123}</APIkey> -->
+                </systemPropertyVariables>
             </configuration>
         </plugin>
     </plugins>

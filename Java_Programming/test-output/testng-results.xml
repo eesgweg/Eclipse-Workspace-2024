@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-06T08:39:47 IST" name="Default suite" finished-at="2024-09-06T08:39:53 IST" duration-ms="6382">
+  <suite started-at="2024-10-13T22:32:30 IST" name="Default suite" finished-at="2024-10-13T22:32:30 IST" duration-ms="47">
     <groups>
+      <group name="Lists">
+        <method signature="Collections_Framework.List()[pri:0, instance:CollectionsFW.Collections_Framework@290222c1]" name="List" class="CollectionsFW.Collections_Framework"/>
+      </group> <!-- Lists -->
     </groups>
-    <test started-at="2024-09-06T08:39:47 IST" name="Default test" finished-at="2024-09-06T08:39:53 IST" duration-ms="6382">
-      <class name="API.E2E">
-        <test-method signature="GetAPIToken()[pri:1, instance:API.E2E@7e0b85f9]" started-at="2024-09-06T08:39:47 IST" name="GetAPIToken" finished-at="2024-09-06T08:39:53 IST" duration-ms="6324" status="PASS">
+    <test started-at="2024-10-13T22:32:30 IST" name="Default test" finished-at="2024-10-13T22:32:30 IST" duration-ms="47">
+      <class name="CollectionsFW.Collections_Framework">
+        <test-method signature="List()[pri:0, instance:CollectionsFW.Collections_Framework@290222c1]" started-at="2024-10-13T22:32:30 IST" name="List" finished-at="2024-10-13T22:32:30 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetAPIToken -->
-      </class> <!-- API.E2E -->
+        </test-method> <!-- List -->
+      </class> <!-- CollectionsFW.Collections_Framework -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

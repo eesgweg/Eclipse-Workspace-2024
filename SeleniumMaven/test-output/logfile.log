@@ -897,3 +897,506 @@ Session ID: 025ec693-da1c-406c-aa75-ff1a44fa8642
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 2024-09-15 12:52:18 INFO  Log4jListener:43 - Test Suite finished: Test
+2024-10-05 19:09:04 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-05 19:10:44 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-05 19:10:44 INFO  Log4jListener:51 - Test started: LaunchEdge
+2024-10-05 19:10:44 INFO  Log4jListener:51 - Test started: LaunchFirefox
+2024-10-05 19:10:46 ERROR Log4jListener:63 - Test failed: LaunchEdge
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50837/devtools/browser/7aab94eb-9c92-4369-a594-2606f8a011b3
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANI_BHARATHI_M', ip: '192.168.1.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:116)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+	at CrossBrowser.Edge.LaunchEdge(Edge.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-05 19:10:52 INFO  Log4jListener:57 - Test passed: LaunchFirefox
+2024-10-05 19:10:52 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:02:47 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:02:47 INFO  Log4jListener:51 - Test started: LaunchFirefox
+2024-10-13 12:02:47 INFO  Log4jListener:51 - Test started: LaunchEdge
+2024-10-13 12:02:49 ERROR Log4jListener:63 - Test failed: LaunchEdge
+org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:50804/devtools/browser/0a79bd3e-2da3-4ec2-a776-9d5a6350edb9
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANI_BHARATHI_M', ip: '192.168.1.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: driver.version: EdgeDriver
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:116)
+	at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:38)
+	at CrossBrowser.Edge.LaunchEdge(Edge.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 12:02:51 ERROR Log4jListener:63 - Test failed: LaunchFirefox
+org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//demowebshop.tricentis.com/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20demowebshop.tricentis.com.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANI_BHARATHI_M', ip: '192.168.1.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3c7eb834-be6c-403f-9895-316c547b8092, get {url=https://demowebshop.tricentis.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20712, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3c7eb834-be6c-403f-9895-316c547b8092
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+	at CrossBrowser.Firefox.LaunchFirefox(Firefox.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 12:02:51 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:07:07 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:07:08 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:08:30 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:08:30 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:08:58 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:08:58 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:09:28 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:09:28 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:10:42 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:10:42 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:10:49 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:10:49 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:10:58 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:10:58 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:11:05 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:11:05 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:12:08 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:12:08 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:12:14 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:12:14 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:14:03 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:14:03 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:14:08 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:14:08 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:15:54 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:15:54 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:16:02 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:16:02 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:17:58 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:17:58 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:18:00 ERROR Log4jListener:63 - Test failed: Runner
+java.io.FileNotFoundException: src\test\resources\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at InterviewPractice.Utils.getProperty(Utils.java:54)
+	at InterviewPractice.Execution.Runner(Execution.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 12:18:00 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:18:51 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:18:51 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:18:53 ERROR Log4jListener:63 - Test failed: Runner
+java.io.FileNotFoundException: src\test\resources\config.properties (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at InterviewPractice.Utils.getProperty(Utils.java:54)
+	at InterviewPractice.Execution.Runner(Execution.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 12:18:53 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:19:50 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:19:50 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:19:56 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:19:56 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:22:47 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:22:47 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:22:49 ERROR Log4jListener:63 - Test failed: Runner
+org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.demoblaze.com/&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.demoblaze.com.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANI_BHARATHI_M', ip: '192.168.1.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6df2eaff-d33f-4363-9463-918088f49f99, get {url=https://www.demoblaze.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21512, moz:profile: C:\Users\swats\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6df2eaff-d33f-4363-9463-918088f49f99
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:328)
+	at InterviewPractice.Utils.openBrowserWithUrl(Utils.java:41)
+	at InterviewPractice.Execution.Runner(Execution.java:15)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 12:22:50 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 12:25:05 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 12:25:05 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 12:25:18 INFO  Log4jListener:57 - Test passed: Runner
+2024-10-13 12:25:18 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 13:14:27 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 13:14:27 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 13:14:32 ERROR Log4jListener:63 - Test failed: Runner
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because "InterviewPractice.Reporting.test" is null
+	at InterviewPractice.Reporting.Reporter(Reporting.java:30)
+	at InterviewPractice.driverAssignment.<init>(driverAssignment.java:29)
+	at InterviewPractice.Utils.<init>(Utils.java:22)
+	at InterviewPractice.Execution.Runner(Execution.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 13:14:32 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 13:15:58 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 13:15:58 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 13:16:02 ERROR Log4jListener:63 - Test failed: Runner
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because "InterviewPractice.Reporting.test" is null
+	at InterviewPractice.Reporting.Reporter(Reporting.java:32)
+	at InterviewPractice.driverAssignment.<init>(driverAssignment.java:29)
+	at InterviewPractice.Utils.<init>(Utils.java:22)
+	at InterviewPractice.Execution.Runner(Execution.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+2024-10-13 13:16:02 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 13:21:54 INFO  Log4jListener:28 - Test Suite started: Test1
+2024-10-13 13:21:54 INFO  Log4jListener:51 - Test started: Runner
+2024-10-13 13:21:58 ERROR Log4jListener:63 - Test failed: Runner
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because "InterviewPractice.Reporting.test" is null
+	at InterviewPractice.Reporting.Reporter(Reporting.java:38)
+	at InterviewPractice.driverAssignment.<init>(driverAssignment.java:29)
+	at InterviewPractice.Utils.<init>(Utils.java:22)
+	at InterviewPractice.Execution.Runner(Execution.java:14)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-10-13 13:21:58 INFO  Log4jListener:43 - Test Suite finished: Test1
+2024-10-13 13:31:45 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 13:31:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 13:31:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 13:31:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 13:31:45 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:17:53 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:17:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:17:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:17:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:17:53 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:22:21 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:22:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:22:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:22:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:22:21 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:24:34 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:24:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:24:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:24:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:24:34 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:26:40 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:26:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:26:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:26:40 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:26:40 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:36:14 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:36:14 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:36:14 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:36:14 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:36:14 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:56:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:56:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:56:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:56:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:56:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:58:48 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:58:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:58:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:58:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:58:48 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 15:59:53 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 15:59:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 15:59:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 15:59:53 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 15:59:53 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:01:17 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:01:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:01:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:01:17 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:01:17 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:02:21 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:02:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:02:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:02:21 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:02:21 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:05:26 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:05:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:05:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:05:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:05:26 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:16:11 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:16:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:16:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:16:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:16:11 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:17:48 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:17:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:17:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:17:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:17:48 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:18:32 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:18:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:18:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:18:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:18:32 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:22:55 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:22:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:22:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:22:55 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:22:55 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:23:16 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:23:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:23:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:23:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:23:16 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:26:11 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:26:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:26:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:26:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:26:11 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:26:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:26:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:26:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:26:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:26:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:28:02 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:28:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:28:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:28:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:28:02 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:30:07 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:30:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:30:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:30:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:30:07 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:32:04 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:32:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:32:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:32:04 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:32:04 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:33:28 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:33:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:33:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:33:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:33:28 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:37:12 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:37:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:37:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:37:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:37:12 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:39:10 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:39:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:39:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:39:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:39:10 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:45:11 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:45:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:45:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:45:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:45:11 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:48:54 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:48:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:48:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:48:54 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:48:54 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:50:46 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:50:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:50:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:50:46 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:50:46 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:52:07 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:52:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:52:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:52:07 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:52:07 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:53:35 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:53:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:53:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:53:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:53:35 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:54:35 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:54:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:54:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:54:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:54:35 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:55:34 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:55:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:55:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:55:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:55:34 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 16:59:56 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 16:59:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 16:59:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 16:59:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 16:59:56 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:03:02 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:03:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:03:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:03:02 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:03:02 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:05:45 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:05:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:05:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:05:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:05:45 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:08:32 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:08:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:08:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:08:32 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:08:32 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:09:34 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:09:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:09:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:09:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:09:34 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:10:59 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:10:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:10:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:10:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:10:59 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:12:23 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:12:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:12:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:12:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:12:23 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:14:30 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:14:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:14:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:14:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:14:30 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:17:01 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:17:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:17:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:17:01 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:17:01 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:19:03 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:19:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:19:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:19:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:19:03 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2024-10-13 17:36:30 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2024-10-13 17:36:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2024-10-13 17:36:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2024-10-13 17:36:30 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2024-10-13 17:36:30 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/swats/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

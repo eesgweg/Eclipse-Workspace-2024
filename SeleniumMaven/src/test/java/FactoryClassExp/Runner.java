@@ -4,6 +4,7 @@ package FactoryClassExp;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 
@@ -11,24 +12,28 @@ import org.testng.annotations.Test;
 
 public class Runner {
 	@Factory
-	public Object[] factoryMethod() {
+	public Object[] factoryMethod(String browser) {
         return new Object[] {
-            new A(1),
-            new B(2),
-            new C(3)
+            new A(browser),
+            new B(browser),
+            new C(browser)
         };
 }	
-	@Test
-	public void run() {
-		Map<Integer, Object> a = new HashMap<Integer, Object>();
-		int i = 0;
-		for(Object x : factoryMethod()) {
-			System.out.println(x);
-			a.put(i, x);
-			i++;
-		}	
+	
+	
+	@DataProvider(name = "browser")
+	public Object[][] browserData(){
+		return new Object[][] {
+			{"Chrome"},{"Firefox"},{"Edge"}
+		};
 		
-		System.out.println(a);
-	}
+		}
+	
+
+@Test(dataProvider = "browserData")
+public void Run(String browser) {
+	factoryMethod(browser);
 }
+}
+
 

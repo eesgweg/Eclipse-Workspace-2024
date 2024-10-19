@@ -21,7 +21,7 @@ public class Utlility {
 	
 	public String Getproperty(String Property) throws IOException {
 		 prop = new Properties();
-		FileInputStream Fis = new FileInputStream("C:\\Users\\swats\\Mani Eclipse New Workspace\\SeleniumMaven\\src\\main\\java\\Properties.properties");
+		FileInputStream Fis = new FileInputStream("G:\\Mani Eclipse New Workspace\\Mani Eclipse New Workspace\\SeleniumMaven\\src\\main\\java\\Properties.properties");
 		prop.load(Fis);
 		String a = null;
 		

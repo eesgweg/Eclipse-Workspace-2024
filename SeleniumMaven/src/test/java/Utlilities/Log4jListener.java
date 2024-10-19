@@ -20,7 +20,7 @@ import org.testng.ITestResult;
 	    @Override
 	    public void onStart(ITestContext context) {
 	    	try {
-				writer = new BufferedWriter(new FileWriter("C:\\Users\\swats\\Mani Eclipse New Workspace\\SeleniumMaven\\test-output\\HTMLREPORTS\\StatusReport.html"));
+				writer = new BufferedWriter(new FileWriter("G:\\Mani Eclipse New Workspace\\Mani Eclipse New Workspace\\SeleniumMaven\\test-output\\HTMLREPORTS\\StatusReport.html"));
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

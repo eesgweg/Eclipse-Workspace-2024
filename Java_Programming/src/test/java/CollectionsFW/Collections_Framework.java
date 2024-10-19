@@ -378,6 +378,10 @@ public class Collections_Framework {
 		List<String> dest = new ArrayList<>(Arrays.asList("", "", ""));
 		Collections.copy(dest, src);
 		System.out.println(dest);
+		Collections.shuffle(list);
+		System.out.println("Shuffled list: "+list);
+		Collections.shuffle(list,new Random(2));
+		System.out.println("Shuffled list as per random 3: "+list);
 	}
 	
 	

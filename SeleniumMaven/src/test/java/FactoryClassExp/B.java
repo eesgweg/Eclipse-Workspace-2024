@@ -1,10 +1,10 @@
 package FactoryClassExp;
 
 public class B {
-	int a;
-	public B(int a) {
-		this.a =a;
-		System.out.println(a);
+	String a;
+	public B(String browser) {
+		this.a =browser;
+		System.out.println(browser);
 	}
 
 

@@ -20,7 +20,7 @@ public class RunnerAPIs {
 	@Test
 	public static void Runner() {
 		// TODO Auto-generated method stub
-		//Scenarios.API_Scenarios.UpdateAddressandverify();
+		Scenarios.API_Scenarios.UpdateAddressandverify();
 		//Scenarios.API_Scenarios.AddUsers("Ben Stokes","Cricketer");
 //		Scenarios.LibraryAPI.addBook(null, null);
 //		System.out.println("Added Book");

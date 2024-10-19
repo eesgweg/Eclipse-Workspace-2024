@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="API.E2E">
+      <class name="CollectionsFW.Collections_Framework">
         <methods>
-          <include name="GetAllAccounts"/>
-          <include name="CreateTransaction"/>
-          <include name="GetAllTransactions"/>
+          <include name="CollectionsUtility"/>
         </methods>
-      </class> <!-- API.E2E -->
+      </class> <!-- CollectionsFW.Collections_Framework -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

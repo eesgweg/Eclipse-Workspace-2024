@@ -1,17 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-15T12:01:44 IST" name="Default suite" finished-at="2024-09-15T12:01:44 IST" duration-ms="79">
+  <suite started-at="2024-10-19T17:03:28 IST" name="Default suite" finished-at="2024-10-19T17:03:32 IST" duration-ms="4062">
     <groups>
     </groups>
-    <test started-at="2024-09-15T12:01:44 IST" name="Default test" finished-at="2024-09-15T12:01:44 IST" duration-ms="79">
-      <class name="FactoryClassExp.Runner">
-        <test-method signature="run()[pri:0, instance:FactoryClassExp.Runner@a514af7]" started-at="2024-09-15T12:01:44 IST" name="run" finished-at="2024-09-15T12:01:44 IST" duration-ms="18" status="PASS">
+    <test started-at="2024-10-19T17:03:28 IST" name="Default test" finished-at="2024-10-19T17:03:32 IST" duration-ms="4062">
+      <class name="CrossBrowser.Edge">
+        <test-method signature="LaunchEdge()[pri:0, instance:CrossBrowser.Edge@f0da945]" started-at="2024-10-19T17:03:28 IST" name="LaunchEdge" finished-at="2024-10-19T17:03:32 IST" duration-ms="4022" status="FAIL">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:61965/devtools/browser/5737784e-c41f-4b02-88a5-a3bf3465c566
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANI_BHARATHI_M', ip: '192.168.220.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: EdgeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:61965/devtools/browser/5737784e-c41f-4b02-88a5-a3bf3465c566
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'MANI_BHARATHI_M', ip: '192.168.220.53', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: driver.version: EdgeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:104)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:137)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:116)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:124)
+at java.base/java.util.Optional.map(Optional.java:260)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:122)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:49)
+at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:41)
+at CrossBrowser.Edge.LaunchEdge(Edge.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- FactoryClassExp.Runner -->
+        </test-method> <!-- LaunchEdge -->
+      </class> <!-- CrossBrowser.Edge -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

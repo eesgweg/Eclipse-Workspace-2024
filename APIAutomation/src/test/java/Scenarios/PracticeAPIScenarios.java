@@ -13,6 +13,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.poi.ss.formula.ptg.GreaterEqualPtg;
 import org.testng.annotations.Test;
 
 import Files.Libraries;
@@ -22,18 +23,20 @@ public class PracticeAPIScenarios {
 	@Test
 	public static void GetProductList() throws IOException {
 		RestAssured.baseURI="https://automationexercise.com/";
-		String  Response= given()
+		Response  Response= given()
 		.when().get("api/productsList")
 		.then().log().all()
-		.assertThat().statusCode(200).extract().response().asString();		
-		String ID = Libraries.RawToJSON(Response).getString("products[0]")+"";
-		System.err.println(ID);
-		String FilePath = "C:\\Users\\swats\\OneDrive\\Desktop\\Study\\Response.json";
-		
-		FileWriter FileWriter = new FileWriter(FilePath);
-		FileWriter.write(Response);
-		FileWriter.close();
-		System.out.println("FileWriter is done");
+		.assertThat().statusCode(200)
+		.extract().response();
+		System.err.println(Response.jsonPath().getList("products").size());
+//		String ID = Libraries.RawToJSON(Response).getString("products[0]")+"";
+//		System.err.println(ID);
+//		String FilePath = "C:\\Users\\swats\\OneDrive\\Desktop\\Study\\Response.json";
+//		
+//		FileWriter FileWriter = new FileWriter(FilePath);
+//		FileWriter.write(Response);
+//		FileWriter.close();
+//		System.out.println("FileWriter is done");
 		
 	}
 	
@@ -41,7 +44,8 @@ public class PracticeAPIScenarios {
 	public static String GetReqresData() {
 		RestAssured.baseURI="https://reqres.in";
 		Response Response = given()
-		.when().get("api/login")
+				.queryParam("page", "2")
+		.when().get("api/users")
 		.then().assertThat().statusCode(200)
 		.extract().response();		
 

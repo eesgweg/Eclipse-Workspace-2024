@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestExecution.DemoWebShop_OrderItem">
+      <class name="CrossBrowser.Edge">
         <methods>
-          <include name="AddToCart"/>
-          <include name="Launch_And_Login"/>
+          <include name="LaunchEdge"/>
         </methods>
-      </class> <!-- TestExecution.DemoWebShop_OrderItem -->
+      </class> <!-- CrossBrowser.Edge -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

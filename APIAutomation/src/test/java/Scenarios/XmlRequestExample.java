@@ -37,8 +37,8 @@ public class XmlRequestExample {
         Fr.write(response.prettyPrint());
         Fr.close();
         
-//        JSONObject jsonresponse = XML.toJSONObject(response.toString());
-//        System.out.println(jsonresponse);
+        JSONObject jsonresponse = XML.toJSONObject(response.toString());
+        System.out.println(jsonresponse);
        
         
         
