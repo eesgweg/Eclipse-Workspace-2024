@@ -1,5 +1,7 @@
 package CrossBrowser;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
@@ -10,21 +12,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class Edge {
+import dev.failsafe.internal.util.Assert;
 
-	@Test
-	public void LaunchEdge() throws IOException {
+public class Edge {
+	 WebDriver driver;
+
+	public Edge() {
+
 		System.setProperty("webdriver.edge.driver", "G:\\msedgedriver.exe");
 		EdgeOptions options = new EdgeOptions();
 		options.setCapability("useWebSocketUrl", true);
-		WebDriver driver = new EdgeDriver(options);
-		
-		
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.urlToBe("https://rahulshettyacademy.com/AutomationPractice/"));
-
-		
+		this.driver = new EdgeDriver(options);
 	}
-	
+
 }

@@ -263,14 +263,15 @@ public class programs {
 	public static void StringCompare(String s1, String s2) {
 		// Two Strings are not made up of same characters or not
 
-		Set<Character> Set1 = new HashSet<Character>();
+		List<Character> Set1 = new ArrayList<Character>();
 		for (char c1 : s1.toCharArray()) {
 			Set1.add(c1);
 		}
-		Set<Character> Set2 = new HashSet<Character>();
+		List<Character> Set2 = new ArrayList<Character>();
 		for (char c2 : s2.toCharArray()) {
 			Set2.add(c2);
 		}
+		
 		System.out.println(Set1);
 		System.out.println(Set2);
 
@@ -331,12 +332,35 @@ public class programs {
 //		Diamond_StarPattern(rows);
 //		List<Integer> LL = List.of(7,8,7,9,8,4,0,8,4,5);
 //		OccururanceOfEachElement(LL);
-		Set<Integer> Set1 = Set.of(1, 2, 3, 4, 5);
-		Set<Integer> Set2 = Set.of(4, 5, 6, 7);
+//		Set<Integer> Set1 = Set.of(1, 2, 3, 4, 5);
+//		Set<Integer> Set2 = Set.of(4, 5, 6, 7);
   //      Union_Intersection(Set1,Set2);
 		//CharacterTypes("sfegEn568#^ &DaGA ");
-		
 
+////Convert CamelCase to SnakeCase
+//String Camelcase ="MyNameIsMani";
+//String SnakeCase ="";
+//for(char x:Camelcase.toCharArray()) {
+//	if(Character.isUpperCase(x)) {
+//		SnakeCase+="_"+x;
+//	}else {
+//		SnakeCase+=x;
+//	}
+//}
+//System.out.println("Camelcase: "+Camelcase);
+//System.out.println("SnakeCase: "+SnakeCase.substring(1));
+
+//print count common numbers in a array
+List<Integer> a = new ArrayList<Integer>(Arrays.asList(5,3,4));
+Set<Integer> dummy = new HashSet<Integer>();
+for(int x:a) {
+	int count = Collections.frequency(a,x);
+	if(count > 1 & dummy.contains(x) == false) {
+		System.out.println(x+" = "+Collections.frequency(a,x)+" times");
+		dummy.add(x);
+	}
+
+}
 		
 		
 		

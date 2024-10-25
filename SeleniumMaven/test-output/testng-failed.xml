@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CrossBrowser.Edge">
+      <class name="CrossBrowser.Factorybrowser">
         <methods>
-          <include name="LaunchEdge"/>
+          <include name="Run1"/>
+          <include name="OpenBrowserInstance"/>
         </methods>
-      </class> <!-- CrossBrowser.Edge -->
+      </class> <!-- CrossBrowser.Factorybrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
